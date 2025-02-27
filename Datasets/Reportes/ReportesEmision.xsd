@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportesEmision" targetNamespace="http://tempuri.org/ReportesEmision.xsd" xmlns:mstns="http://tempuri.org/ReportesEmision.xsd" xmlns="http://tempuri.org/ReportesEmision.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="XLCatlinConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="XLCatlinConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SmartG.Properties.Settings.GlobalReference.Default.XLCatlinConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PolizaTableAdapter" GeneratorDataComponentClassName="PolizaTableAdapter" Name="Poliza" UserDataComponentName="PolizaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="XLCatlinConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Poliza.ID AS IDPoliza, Poliza.Poliza, Poliza.Status, InfoSchedule.Prima, InfoSchedule.isBrokerage, InfoSchedule.PorcentajeBrokerage, InfoSchedule.Comision AS ComisionBroker, PolizaDesglosePrima.Concepto, 
+                         PolizaDesglosePrima.Prima AS PrimaDesgloce
+FROM            Poliza INNER JOIN
+                         InfoSchedule ON Poliza.ID = InfoSchedule.Poliza INNER JOIN
+                         PolizaDesglosePrima ON Poliza.ID = PolizaDesglosePrima.Poliza
+WHERE        (Poliza.Poliza LIKE '%PR%') AND (InfoSchedule.Activo = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Poliza" DataSetColumn="Poliza" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Prima" DataSetColumn="Prima" />
+              <Mapping SourceColumn="isBrokerage" DataSetColumn="isBrokerage" />
+              <Mapping SourceColumn="PorcentajeBrokerage" DataSetColumn="PorcentajeBrokerage" />
+              <Mapping SourceColumn="Concepto" DataSetColumn="Concepto" />
+              <Mapping SourceColumn="IDPoliza" DataSetColumn="IDPoliza" />
+              <Mapping SourceColumn="ComisionBroker" DataSetColumn="ComisionBroker" />
+              <Mapping SourceColumn="PrimaDesgloce" DataSetColumn="PrimaDesgloce" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportesEmision" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportesEmision" msprop:Generator_UserDSName="ReportesEmision">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Poliza" msprop:Generator_TableClassName="PolizaDataTable" msprop:Generator_TableVarName="tablePoliza" msprop:Generator_TablePropName="Poliza" msprop:Generator_RowDeletingName="PolizaRowDeleting" msprop:Generator_RowChangingName="PolizaRowChanging" msprop:Generator_RowEvHandlerName="PolizaRowChangeEventHandler" msprop:Generator_RowDeletedName="PolizaRowDeleted" msprop:Generator_UserTableName="Poliza" msprop:Generator_RowChangedName="PolizaRowChanged" msprop:Generator_RowEvArgName="PolizaRowChangeEvent" msprop:Generator_RowClassName="PolizaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Poliza" msprop:Generator_ColumnVarNameInTable="columnPoliza" msprop:Generator_ColumnPropNameInRow="Poliza" msprop:Generator_ColumnPropNameInTable="PolizaColumn" msprop:Generator_UserColumnName="Poliza" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:int" minOccurs="0" />
+              <xs:element name="Prima" msprop:Generator_ColumnVarNameInTable="columnPrima" msprop:Generator_ColumnPropNameInRow="Prima" msprop:Generator_ColumnPropNameInTable="PrimaColumn" msprop:Generator_UserColumnName="Prima" type="xs:decimal" minOccurs="0" />
+              <xs:element name="isBrokerage" msprop:Generator_ColumnVarNameInTable="columnisBrokerage" msprop:Generator_ColumnPropNameInRow="isBrokerage" msprop:Generator_ColumnPropNameInTable="isBrokerageColumn" msprop:Generator_UserColumnName="isBrokerage" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PorcentajeBrokerage" msprop:Generator_ColumnVarNameInTable="columnPorcentajeBrokerage" msprop:Generator_ColumnPropNameInRow="PorcentajeBrokerage" msprop:Generator_ColumnPropNameInTable="PorcentajeBrokerageColumn" msprop:Generator_UserColumnName="PorcentajeBrokerage" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Concepto" msprop:Generator_ColumnVarNameInTable="columnConcepto" msprop:Generator_ColumnPropNameInRow="Concepto" msprop:Generator_ColumnPropNameInTable="ConceptoColumn" msprop:Generator_UserColumnName="Concepto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDPoliza" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDPoliza" msprop:Generator_ColumnPropNameInRow="IDPoliza" msprop:Generator_ColumnPropNameInTable="IDPolizaColumn" msprop:Generator_UserColumnName="IDPoliza" type="xs:int" />
+              <xs:element name="ComisionBroker" msprop:Generator_ColumnVarNameInTable="columnComisionBroker" msprop:Generator_ColumnPropNameInRow="ComisionBroker" msprop:Generator_ColumnPropNameInTable="ComisionBrokerColumn" msprop:Generator_UserColumnName="ComisionBroker" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrimaDesgloce" msprop:Generator_ColumnVarNameInTable="columnPrimaDesgloce" msprop:Generator_ColumnPropNameInRow="PrimaDesgloce" msprop:Generator_ColumnPropNameInTable="PrimaDesgloceColumn" msprop:Generator_UserColumnName="PrimaDesgloce" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Poliza" />
+      <xs:field xpath="mstns:IDPoliza" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

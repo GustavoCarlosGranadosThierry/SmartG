@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="c201" xml:space="preserve">
+    <value>Petición de cancelación realizada exitosamente</value>
+  </data>
+  <data name="c202" xml:space="preserve">
+    <value>Petición de cancelación realizada Previamente</value>
+  </data>
+  <data name="c203" xml:space="preserve">
+    <value>No corresponde el RFC del Emisor y de quien solicita la cancelación</value>
+  </data>
+  <data name="c205" xml:space="preserve">
+    <value>UUID No encontrado</value>
+  </data>
+  <data name="c300" xml:space="preserve">
+    <value>Usuario y contraseña inválidos</value>
+  </data>
+  <data name="c301" xml:space="preserve">
+    <value>XML Mal Formado</value>
+  </data>
+  <data name="c302" xml:space="preserve">
+    <value>Sello mal formado o inválido</value>
+  </data>
+  <data name="c304" xml:space="preserve">
+    <value>Certificado Revocado o Caduco</value>
+  </data>
+  <data name="c305" xml:space="preserve">
+    <value>La fecha de emisión no esta dentro de la vigencia del CSD del Emisor</value>
+  </data>
+  <data name="c309" xml:space="preserve">
+    <value>Patrón de Folio inválido</value>
+  </data>
+  <data name="c1000" xml:space="preserve">
+    <value>Se recibió la respuesta de la petición de forma exitosa</value>
+  </data>
+  <data name="c1001" xml:space="preserve">
+    <value>No existen peticiones de cancelación en espera de respuesta para el uuid</value>
+  </data>
+  <data name="c1002" xml:space="preserve">
+    <value>Ya se recibió una respuesta para la petición de cancelación del uuid</value>
+  </data>
+  <data name="c1003" xml:space="preserve">
+    <value>Sello No Corresponde al RFC Receptor</value>
+  </data>
+  <data name="c1004" xml:space="preserve">
+    <value>Existen más de una petición de cancelación para el mismo uuid</value>
+  </data>
+  <data name="c1005" xml:space="preserve">
+    <value>El uuid es nulo no posee el formato correcto</value>
+  </data>
+  <data name="c1006" xml:space="preserve">
+    <value>Se rebaso el número máximo de solicitudes permitidas</value>
+  </data>
+  <data name="c303" xml:space="preserve">
+    <value>Sello no corresponde a emisor</value>
+  </data>
+  <data name="c306" xml:space="preserve">
+    <value>El certificado no es de tipo CSD</value>
+  </data>
+  <data name="c307" xml:space="preserve">
+    <value>Comprobante timbrado previamente</value>
+  </data>
+  <data name="c308" xml:space="preserve">
+    <value>Certificado no expedido por el SAT</value>
+  </data>
+  <data name="c401" xml:space="preserve">
+    <value>Fecha y hora de generación fuera de rango</value>
+  </data>
+  <data name="c402" xml:space="preserve">
+    <value>RFC del emisor no se encuentra en el régimen de contribuyentes</value>
+  </data>
+  <data name="c403" xml:space="preserve">
+    <value>La fecha de emisión no es posterior al 01 de enero de 2012</value>
+  </data>
+  <data name="c501" xml:space="preserve">
+    <value>Autenticación no válida</value>
+  </data>
+  <data name="c603" xml:space="preserve">
+    <value>El CFDI no contiene un timbre previo (método stamped)</value>
+  </data>
+  <data name="c702" xml:space="preserve">
+    <value>No ha registrado el RFC emisor bajo la cuenta de Finkok</value>
+  </data>
+  <data name="c703" xml:space="preserve">
+    <value>Cuenta suspendida</value>
+  </data>
+  <data name="c704" xml:space="preserve">
+    <value>Error con la contraseña de la llave Privada</value>
+  </data>
+  <data name="c705" xml:space="preserve">
+    <value>XML estructura inválida</value>
+  </data>
+  <data name="c706" xml:space="preserve">
+    <value>Socio Inválido</value>
+  </data>
+  <data name="c707" xml:space="preserve">
+    <value>XML ya contiene un nodo TimbreFiscalDigital</value>
+  </data>
+  <data name="c708" xml:space="preserve">
+    <value>No se pudo conectar al SAT</value>
+  </data>
+  <data name="c711" xml:space="preserve">
+    <value>Error con el certificado al cancelar</value>
+  </data>
+  <data name="c712" xml:space="preserve">
+    <value>El numero de 'noCertificado' es diferente al del numero de certificado del atributo 'certificado'</value>
+  </data>
+  <data name="c1201" xml:space="preserve">
+    <value>UUID Cancelado</value>
+  </data>
+  <data name="c1202" xml:space="preserve">
+    <value>UUID Previamente cancelado</value>
+  </data>
+  <data name="c1203" xml:space="preserve">
+    <value>UUID a cancelar no corresponde con el emisor</value>
+  </data>
+  <data name="c1205" xml:space="preserve">
+    <value>UUID No existe</value>
+  </data>
+  <data name="c1302" xml:space="preserve">
+    <value>Estructura de folios no válida</value>
+  </data>
+  <data name="c1305" xml:space="preserve">
+    <value>Certificado no corresponde al emisor</value>
+  </data>
+  <data name="c1306" xml:space="preserve">
+    <value>Certificado no vigente</value>
+  </data>
+  <data name="c1307" xml:space="preserve">
+    <value>El certificado no es de tipo CSD</value>
+  </data>
+  <data name="c1308" xml:space="preserve">
+    <value>Certificado revocado o caduco</value>
+  </data>
+  <data name="c715" xml:space="preserve">
+    <value>Error al crear XML de consulta Sector Primario</value>
+  </data>
+  <data name="c716" xml:space="preserve">
+    <value>Firma Inválida - Consulta Sector Primario</value>
+  </data>
+  <data name="c717" xml:space="preserve">
+    <value>Error al generar la firma del XML</value>
+  </data>
+</root>

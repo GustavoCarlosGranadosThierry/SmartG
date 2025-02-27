@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aec807d6-8b87-4c4c-abf3-ee8534d3cf75" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.pipe://localhost/UiPath/service/MEX" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0d95217d-e8ec-4ae2-bbd7-957d1a5113c1" SourceId="1" SourceUrl="net.pipe://localhost/UiPath/service/MEX" />
+    <MetadataFile FileName="Message.xsd" MetadataType="Schema" ID="58048656-481d-4d48-8f0d-529916f6da7c" SourceId="1" SourceUrl="net.pipe://localhost/UiPath/service/MEX" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a8c65c55-0c1f-4cde-bf56-d40b050d1234" SourceId="1" SourceUrl="net.pipe://localhost/UiPath/service/MEX" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="6d818e02-7317-483b-abfa-c946855aae61" SourceId="1" SourceUrl="net.pipe://localhost/UiPath/service/MEX" />
+    <MetadataFile FileName="UiPath.Models.xsd" MetadataType="Schema" ID="59609417-10c1-47d9-94db-3eb2871ddfe8" SourceId="1" SourceUrl="net.pipe://localhost/UiPath/service/MEX" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

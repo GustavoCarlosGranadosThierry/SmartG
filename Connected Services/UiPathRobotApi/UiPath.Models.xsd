@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/UiPath.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/UiPath.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="SettingsName">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NuGetApiKey" />
+      <xs:enumeration value="NuGetServerUrl" />
+      <xs:enumeration value="ActivitiesFeed" />
+      <xs:enumeration value="UiPathServerUrl" />
+      <xs:enumeration value="TracingLevel" />
+      <xs:enumeration value="LowLevelTracing" />
+      <xs:enumeration value="RobotKey" />
+      <xs:enumeration value="LoginToConsole" />
+      <xs:enumeration value="ResolutionWidth" />
+      <xs:enumeration value="ResolutionHeight" />
+      <xs:enumeration value="ResolutionDepth" />
+      <xs:enumeration value="ConnectionString" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SettingsName" nillable="true" type="tns:SettingsName" />
+</xs:schema>

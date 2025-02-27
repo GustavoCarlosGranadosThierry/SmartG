@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Emision_Validacion21" xml:space="preserve">
+    <value>Ocurrió un error, no se encuentra el coasegurador XL México en la tabla Coaseguros, favor de verificarlo y agregarlo manualmente en caso de haber sido borrado</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos1" xml:space="preserve">
+    <value>Ocurrió un error al generar el Cover, favor de contactar al soporte técnico</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos2" xml:space="preserve">
+    <value>Ocurrió un error al generar el Schedule, favor de contactar al soporte técnico</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos3" xml:space="preserve">
+    <value>Ocurrió un error al generar la nota de reaseguro, favor de contactar al soporte técnico</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos4" xml:space="preserve">
+    <value>Ocurrió un error al generar el wording, favor de contactar al soporte técnico</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos5" xml:space="preserve">
+    <value>Error al combinar los documentos en una póliza, favor de contactar al soporte técnico</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion1" xml:space="preserve">
+    <value>La poliza MX es necesaria para generar un registro nuevo o actualizar uno existente</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion2" xml:space="preserve">
+    <value>Error en longitud, debe contener 15 caracteres</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion3" xml:space="preserve">
+    <value>Error en seccion 1</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion4" xml:space="preserve">
+    <value>Error en Seccion 2</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion5" xml:space="preserve">
+    <value>Error en Seccion 3</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion6" xml:space="preserve">
+    <value>Error en Seccion 4</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion7" xml:space="preserve">
+    <value>Error en seccion 5</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion8" xml:space="preserve">
+    <value>Error: ya existe una póliza con ese folio, no puedes continuar sin un número de póliza exclusivo</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion9" xml:space="preserve">
+    <value>Debes seleccionar una cobertura</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion10" xml:space="preserve">
+    <value>Debes seleccionar solo una cobertura</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion11" xml:space="preserve">
+    <value>¿Deseas sustituir los valores por los que están actualmente en la sección Coberturas?</value>
+    <comment>Confirma</comment>
+  </data>
+  <data name="Emision_Validacion12" xml:space="preserve">
+    <value>¿Deseas sustituir los valores por defecto?</value>
+    <comment>Confirma</comment>
+  </data>
+  <data name="Emision_Validacion13" xml:space="preserve">
+    <value>Esta operación cambiara todo los valores ingresados en el formato, desea continuar?</value>
+    <comment>Advertencia</comment>
+  </data>
+  <data name="Emision_Validacion14" xml:space="preserve">
+    <value>Debes asignar un asegurado adicional para generar el título de la póliza en Genius</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion15" xml:space="preserve">
+    <value>No puedes eliminar al coasegurador XL Seguros</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion16" xml:space="preserve">
+    <value>No puedes eliminar al reasegurador XL Seguros</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion17" xml:space="preserve">
+    <value>¿Deseas guardar tus cambios antes de salir?</value>
+    <comment>Aviso</comment>
+  </data>
+  <data name="Emision_Validacion18" xml:space="preserve">
+    <value>Para utilizar esta función es necesario validar los datos de la póliza, ¿deseas continuar?</value>
+    <comment>Aviso</comment>
+  </data>
+  <data name="Emision_Documentos6" xml:space="preserve">
+    <value>Esta función concluirá el registro y generará los documentos finales, se recomienda generar un previo de la póliza para su revisión ya que una vez finalizado el registro no se podrá cambiar, si aun así deseas continuar con la conclusión del proceso has click en Si</value>
+    <comment>Aviso importante</comment>
+  </data>
+  <data name="Emision_Documentos7" xml:space="preserve">
+    <value>Ocurrió un error inesperado al generar el documento (cover), favor de contactar al soporte técnico para futura referencia</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos8" xml:space="preserve">
+    <value>Ocurrió un error inesperado al generar el documento (schedule), favor de contactar al soporte técnico para futura referencia</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos9" xml:space="preserve">
+    <value>Ocurrió un error inesperado al generar el documento (wording), favor de contactar al soporte técnico para futura referencia</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos10" xml:space="preserve">
+    <value>Ocurrió un error inesperado al generar el documento (nota Reaseguro), favor de contactar al soporte técnico para futura referencia</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Documentos11" xml:space="preserve">
+    <value>Archivo generado satisfactoriamente, ¿Deseas abrir la carpeta?</value>
+    <comment>Aviso</comment>
+  </data>
+  <data name="Emision_Validacion19" xml:space="preserve">
+    <value>Todos los campos deben de ser ingresados correctamente, da click en el botón 'Validar Registro' para conocer qué falta.</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Emision_Validacion20" xml:space="preserve">
+    <value>Para utilizar esta función es necesario validar los datos de la póliza, ¿deseas continuar?</value>
+    <comment>Aviso</comment>
+  </data>
+  <data name="UnhandlerErrorMessage" xml:space="preserve">
+    <value>Upps, parece que algo ha salido mal. Ayudanos a llenar un formulario de reporte de este error para ayudate a correguirlo cuanto antes. Gracias!</value>
+    <comment>Mensaje de error del sistema</comment>
+  </data>
+</root>

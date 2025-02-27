@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DocumentosSmartG" Class="DocumentsDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=KREIOSFRANK\KREIOSFRANK;Initial Catalog=DocumentosSmartG;Persist Security Info=True;User ID=UsuarioXL" SettingsObjectName="SmartG.Properties.Settings" SettingsPropertyName="DocumentosSmartGConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DocumentosFacturacion" Member="DocumentosFacturacions">
+    <Type Name="DocumentosFacturacion">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Factura" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Data" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Folio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Serie" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NombreCliente" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="RFC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Poliza" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Usuario" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="NombreDocumento" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,3582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbActivityCode" xml:space="preserve">
+    <value>Activity code</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnEnviarCobertura" xml:space="preserve">
+    <value>Add</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnAgregarCoase" xml:space="preserve">
+    <value>Add Coinsurer</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="chkAjustable" xml:space="preserve">
+    <value>Adjustable</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkAdminPremium" xml:space="preserve">
+    <value>Admin Premium</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbAggregationPL" xml:space="preserve">
+    <value>Aggregation PL</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbAggregationPR" xml:space="preserve">
+    <value>AggregationPR</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnTipoCambio" xml:space="preserve">
+    <value>Apply</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkCoaseguro" xml:space="preserve">
+    <value>Apply Coinsurance</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkDeducibles" xml:space="preserve">
+    <value>Apply deductibles</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpTipoCambio" xml:space="preserve">
+    <value>Apply exchange rate</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkExclusiones" xml:space="preserve">
+    <value>Apply exclusions</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkReaseguro" xml:space="preserve">
+    <value>Apply Reinsurance</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkSublimites" xml:space="preserve">
+    <value>Apply Sublimits</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbBroker" xml:space="preserve">
+    <value>Insurance agent:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpBrokerage" xml:space="preserve">
+    <value>Brokerage</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCoaseguroTipo" xml:space="preserve">
+    <value>Coinsurance</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaCoaseguro" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCoaseguradorLider" xml:space="preserve">
+    <value>Coinsurer leader</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpCatalogoCoase" xml:space="preserve">
+    <value>Coinsurers list</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbComisionBrokerage" xml:space="preserve">
+    <value>Commision</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpControlDeducibles" xml:space="preserve">
+    <value>Control of Deductibles</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpControlSublimites" xml:space="preserve">
+    <value>Control of Sublimits</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCountry" xml:space="preserve">
+    <value>Country of Settlement    </value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMoneda" xml:space="preserve">
+    <value>Coin:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbDAM" xml:space="preserve">
+    <value>DAM</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbGastosDefensa" xml:space="preserve">
+    <value>Defense expenses</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpAdministradores" xml:space="preserve">
+    <value>Directors</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbDescuentos" xml:space="preserve">
+    <value>Discounts:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpEndososMain" xml:space="preserve">
+    <value>1) Eligible Endorsements:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpControlExclusiones" xml:space="preserve">
+    <value>Exclusions Control</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbGastosExpedicion" xml:space="preserve">
+    <value>Forwarding expenses</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbRecFraccionado" xml:space="preserve">
+    <value>Fractional Fee</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnTituloPolizaGenius" xml:space="preserve">
+    <value>Generate</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkGenerateDocuments" xml:space="preserve">
+    <value>GenerateDocuments</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpAsegurados" xml:space="preserve">
+    <value>Insured</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkIsBrokerage" xml:space="preserve">
+    <value>Include Brokerage</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbEmision" xml:space="preserve">
+    <value>Issue date:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbLTAExpiry" xml:space="preserve">
+    <value>LTA Expiry</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbLTAInception" xml:space="preserve">
+    <value>LTA Inception</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkLTARenegotiable" xml:space="preserve">
+    <value>LTA Renegotiable</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpLimiteMaximo" xml:space="preserve">
+    <value>Maximum limit</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbLimiteMaximoCombinado" xml:space="preserve">
+    <value>Maximum limit combined</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon1" xml:space="preserve">
+    <value>Mon1</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon10" xml:space="preserve">
+    <value>Mon10</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon11" xml:space="preserve">
+    <value>Mon11</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon12" xml:space="preserve">
+    <value>Mon12</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon13" xml:space="preserve">
+    <value>Mon13</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon14" xml:space="preserve">
+    <value>Mon14</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon15" xml:space="preserve">
+    <value>Mon15</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon16" xml:space="preserve">
+    <value>Mon16</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon2" xml:space="preserve">
+    <value>Mon2</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon3" xml:space="preserve">
+    <value>Mon3</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon4" xml:space="preserve">
+    <value>Mon4</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon5" xml:space="preserve">
+    <value>Mon5</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon6" xml:space="preserve">
+    <value>Mon6</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon7" xml:space="preserve">
+    <value>Mon7</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon8" xml:space="preserve">
+    <value>Mon8</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMon9" xml:space="preserve">
+    <value>Mon9</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaNeta" xml:space="preserve">
+    <value>Net premium</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbNumPagos" xml:space="preserve">
+    <value>Number of Payments</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbObservaciones" xml:space="preserve">
+    <value>Observations</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbDelimitacionTerritorial" xml:space="preserve">
+    <value>Only National, World (Except USA, PR and Canada), World</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPAM" xml:space="preserve">
+    <value>PAM</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbParticipacionCoase" xml:space="preserve">
+    <value>Participation</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpDatosParticipations" xml:space="preserve">
+    <value>Participations info</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPaymentConditions" xml:space="preserve">
+    <value>Payment Conditions</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbFormaPago" xml:space="preserve">
+    <value>Payment conditions</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="lbFinVigencia" xml:space="preserve">
+    <value>Policy end date:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPolizaES" xml:space="preserve">
+    <value>Policy Num ES:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPolizaMX" xml:space="preserve">
+    <value>Policy Num MX:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbInicioVig" xml:space="preserve">
+    <value>Policy start date</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkPortafolio" xml:space="preserve">
+    <value>Portfolio</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrima" xml:space="preserve">
+    <value>Premium</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpPrima" xml:space="preserve">
+    <value>Premium calculation</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpTipoPrima" xml:space="preserve">
+    <value>Premium rate</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaConsiderarRease" xml:space="preserve">
+    <value>Premium to consider:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbTipoPrima" xml:space="preserve">
+    <value>Premium type</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaConsiderarCoase" xml:space="preserve">
+    <value>Premium to consider:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbProducingOffice" xml:space="preserve">
+    <value>Producing Office</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrograma" xml:space="preserve">
+    <value>Programme</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaReaseguro" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnQuitarCobertura" xml:space="preserve">
+    <value>Remove</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="chkRetroactiva" xml:space="preserve">
+    <value>Retroactive</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbInformacionRiesgo" xml:space="preserve">
+    <value>Risk Information :</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpAccionesCob" xml:space="preserve">
+    <value>Shares</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpAccionesCobDB" xml:space="preserve">
+    <value>Shares</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpTipoCoaseguro" xml:space="preserve">
+    <value>Specify the type</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbEstructuraLimite" xml:space="preserve">
+    <value>Structure limit</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpEstructuraLimite" xml:space="preserve">
+    <value>Structure of the limit</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbSujecion" xml:space="preserve">
+    <value>Subjection</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbImpuestos" xml:space="preserve">
+    <value>Taxes</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbDelimitacionTerritorial" xml:space="preserve">
+    <value>Territorial delimitation of the coverage:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbTituloPolizaGenius" xml:space="preserve">
+    <value>Title Policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbToB" xml:space="preserve">
+    <value>ToB</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbComisionTotalBrok" xml:space="preserve">
+    <value>Total commission</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPrimaTotal" xml:space="preserve">
+    <value>Total Premium</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbTipoTransaccion" xml:space="preserve">
+    <value>Transaction Type:</value>
+    <comment>Emision Selector LOB</comment>
+  </data>
+  <data name="lbTurnOver" xml:space="preserve">
+    <value>Turnover</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbTipoPoliza" xml:space="preserve">
+    <value>Type of Policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbIVABrokerage" xml:space="preserve">
+    <value>VAT</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbIVAPrima" xml:space="preserve">
+    <value>VAT %</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnRecargarDeducibles" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnRecargarExclusiones" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="btnRecargarSublimites" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbActivityCode" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbAggregationPL" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbAggregationPR" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbAseguradoMain" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbBroker" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbCatalogoCoase" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbCoaseguradorLider" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbCountry" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbDireccionRegistrada" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbEstructuraLimite" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbFormaPago" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbGastosDefensa" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbIVA" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbMoneda" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbPaymentConditions" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbProducingOffice" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbPrograma" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbTipoCoaseguro" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbTipoPrima" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="cbToB" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateEmision" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateFinVigencia" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateInicioVig" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateLTAExpiry" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateLTAInception" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dateRetroactiva" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgAseguAdicionales" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgCoaseguro" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgCoberturas" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgCoberturasDB" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgDeducibles" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgEndosos" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgExclusiones" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgReaseguro" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="dgSublimites" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpCoaseguroLider" xml:space="preserve">
+    <value>2) co-insurance leader</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpCoaseguroSeguidor" xml:space="preserve">
+    <value>2) co-insurance follower</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpCoberturas" xml:space="preserve">
+    <value>2) coverage of the policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpCoberturasDB" xml:space="preserve">
+    <value>1) coverage in the database</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpDatosPoliza" xml:space="preserve">
+    <value>1) Policy Data</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpDeducibles" xml:space="preserve">
+    <value>1) applicable to the policy deductible</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpEndosos" xml:space="preserve">
+    <value>Select endorsements you want to appear in the wording</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpExclusiones" xml:space="preserve">
+    <value>2) applicable to the policy exclusions</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpFacturacion" xml:space="preserve">
+    <value>2) billing - Schedule</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpFechasPoliza" xml:space="preserve">
+    <value>2) dates of the policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpInfoReaseguro" xml:space="preserve">
+    <value>1) reinsurance information</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpLimites" xml:space="preserve">
+    <value>1) information of limits</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpListaAseguAdicionales" xml:space="preserve">
+    <value>List of Additional Insured</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpParticipantes" xml:space="preserve">
+    <value>Participants</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpPrimayBrokerage" xml:space="preserve">
+    <value>1) premium and Brokerage</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpPrincipalCoaseguros" xml:space="preserve">
+    <value>1) Type of Coinsurance</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpReaseguro" xml:space="preserve">
+    <value>2) Reinsurance</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpSublimites" xml:space="preserve">
+    <value>2) Sublimites of Responsibility</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpUbicaciones" xml:space="preserve">
+    <value>4) Locations and Additional data</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="grpValoresGenius" xml:space="preserve">
+    <value>1) Enter the Genius values</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbAseguradoAdicional" xml:space="preserve">
+    <value>Additional Insured</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbDeducibleManual" xml:space="preserve">
+    <value>2) Add a deductible manually</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbDireccion" xml:space="preserve">
+    <value>Address:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbExclusionManual" xml:space="preserve">
+    <value>2) Add an exclusion manually</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbInstruccionesCob" xml:space="preserve">
+    <value>1) Click to remove the selected coverage from the policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbInstruccionesCob2" xml:space="preserve">
+    <value>2) Add a coverage for the current policy manually</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbInstruccionesCobDB" xml:space="preserve">
+    <value>1) Click to add the selected coverage to the policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbMainAsegurado" xml:space="preserve">
+    <value>Principal Insured</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbParticipacionXL" xml:space="preserve">
+    <value>% Participation XL</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPorcentajeLimite" xml:space="preserve">
+    <value>% of the limit</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbRecargarDeducibles" xml:space="preserve">
+    <value>1) Click to recharge the deductibles for the coverage of the Policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbRecargarExclusiones" xml:space="preserve">
+    <value>1) Click to reload the default exclusions from the database</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbRecargarSublimites" xml:space="preserve">
+    <value>1) Click to recharge the sublimites for the Coverage of the Policy</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbSublimiteManual" xml:space="preserve">
+    <value>2) Add a sublimite manually</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbTipoTransaccionTxt" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Selector LOB</comment>
+  </data>
+  <data name="txtAseguAdicional" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtBrokeragePorc" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtComisionBrokerage" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtComisionTotalBrok" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtDAM" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtDeducibleManual" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtDescuentos" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtGastosDefensa" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtGastosExpedicion" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtImpuestos" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtInformacionRiesgo" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtIVABrokerage" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtLimiteMaximo" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtNuevaCobertura" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtNumPagos" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtObservaciones" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPAM" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtParticipacionCoase" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPolizaES" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPolizaMX" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPrimaMain" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPrimaNeta" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtPrimaTotal" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtRecFraccionado" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtSublimiteManual" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtSujecion" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtTipoCambio" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtTipoPoliza" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtTituloPolizaGenius" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="txtTurnOver" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="tabDatos_Generales" xml:space="preserve">
+    <value>General Info</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabCoberturas" xml:space="preserve">
+    <value>Coverages</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="tabEndosos" xml:space="preserve">
+    <value>Endorsements</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabLimites_y_Sublimites" xml:space="preserve">
+    <value>Limits and Sublimits</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabDeducibles_y_Exclusiones" xml:space="preserve">
+    <value>Deductibles and Exclusions</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabValores_Genius" xml:space="preserve">
+    <value>Genius Values</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabPrima" xml:space="preserve">
+    <value>Premium</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabCoaseguro" xml:space="preserve">
+    <value>Coinsurance</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="tabReaseguro" xml:space="preserve">
+    <value>Reinsurance</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="GuardarAvances" xml:space="preserve">
+    <value>Save</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="CerrarVentana" xml:space="preserve">
+    <value>Close</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="ConcluirRegistro" xml:space="preserve">
+    <value>Finalize Registration</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="ValidarActiveTab" xml:space="preserve">
+    <value>Validate Current Tab</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="ValidarRegistro" xml:space="preserve">
+    <value>Validate all data</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="InformaValidacion" xml:space="preserve">
+    <value>Information</value>
+    <comment>RibbonTools Emision</comment>
+  </data>
+  <data name="btnRecargarCatalogos" xml:space="preserve">
+    <value>Reload Catalogs</value>
+    <comment>RibbonGroups Emision</comment>
+  </data>
+  <data name="GenerarPreview" xml:space="preserve">
+    <value>Generate Preview</value>
+    <comment>RibbonGroups Emision</comment>
+  </data>
+  <data name="grpOpciones" xml:space="preserve">
+    <value>Options</value>
+    <comment>Catalogos - mainEndosos  - ribbongroup</comment>
+  </data>
+  <data name="grpValidaciones" xml:space="preserve">
+    <value>Validations</value>
+    <comment>Facturacion - Facturacion  - ribbongroup</comment>
+  </data>
+  <data name="grpInformacion" xml:space="preserve">
+    <value>System information</value>
+    <comment>RibbonGroups Emision</comment>
+  </data>
+  <data name="grpOpcionesAdicionales" xml:space="preserve">
+    <value>Options</value>
+    <comment>RibbonGroups Emision</comment>
+  </data>
+  <data name="lbUsuario" xml:space="preserve">
+    <value>User:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="txtUsuario" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lbContrasena" xml:space="preserve">
+    <value>Password</value>
+    <comment>Login</comment>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value>Log in</value>
+    <comment>Login</comment>
+  </data>
+  <data name="btnClose" xml:space="preserve">
+    <value>Close</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lbCambioPass" xml:space="preserve">
+    <value>Did you forget your password?</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lbStatus" xml:space="preserve">
+    <value>Status Billing</value>
+    <comment>Facturacion - EditarFactura  - Control</comment>
+  </data>
+  <data name="txtStatusServer" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lbStatusFAQ" xml:space="preserve">
+    <value>What do I do if the service is red?</value>
+    <comment>Login</comment>
+  </data>
+  <data name="cambiarIdiomaToolStripMenuItem" xml:space="preserve">
+    <value>Change language</value>
+    <comment>Login</comment>
+  </data>
+  <data name="verificarRutaABaseDeDatosToolStripMenuItem" xml:space="preserve">
+    <value>Verify route to Database</value>
+    <comment>Login</comment>
+  </data>
+  <data name="grpEdicionIdioma" xml:space="preserve">
+    <value>SmartG language edition</value>
+    <comment>Selector Idioma</comment>
+  </data>
+  <data name="lbIdiomaSeleccionado" xml:space="preserve">
+    <value>Language</value>
+    <comment>Selector Idioma</comment>
+  </data>
+  <data name="lbIdiomaActual" xml:space="preserve">
+    <value>Current Language:</value>
+    <comment>Selector Idioma</comment>
+  </data>
+  <data name="lbCambiarIdioma" xml:space="preserve">
+    <value>Change language:</value>
+    <comment>Selector Idioma</comment>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>agregarEditarSubCobertura</comment>
+  </data>
+  <data name="btnAplicar" xml:space="preserve">
+    <value>Apply changes</value>
+    <comment>Facturacion - EditarFactura  - Control</comment>
+  </data>
+  <data name="btnLiabilityInc" xml:space="preserve">
+    <value>Incoming Policy</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnNuevaFactura" xml:space="preserve">
+    <value>New bill</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnMisFacturas" xml:space="preserve">
+    <value>My bills</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnAcerca" xml:space="preserve">
+    <value>About SmartG</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnAdministracionFacturas" xml:space="preserve">
+    <value>Bill Administration</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnIngresosComplementos" xml:space="preserve">
+    <value>Income and Supplements</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnClientes" xml:space="preserve">
+    <value>customers</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnUsuarios" xml:space="preserve">
+    <value>Users</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnNuevaPolizaInc" xml:space="preserve">
+    <value>New Incoming Policy</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnNuevaPolizaProd" xml:space="preserve">
+    <value>New Producing Policy</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnRenovacionInc" xml:space="preserve">
+    <value>Renovations</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnRenovacionProd" xml:space="preserve">
+    <value>Renovations</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCargarPoliInc" xml:space="preserve">
+    <value>Continue Registration</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCargarPoliProd" xml:space="preserve">
+    <value>Continue Registration</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnTmpTOBPO" xml:space="preserve">
+    <value>PO and ToB</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnInterfazGenius" xml:space="preserve">
+    <value>Genius interface</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnPerfilesYaccesos" xml:space="preserve">
+    <value>Profiles and Access</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnReaseguradoras" xml:space="preserve">
+    <value>Reinsurers</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCoaseguradoras" xml:space="preserve">
+    <value>Coinsurers</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnBrokers" xml:space="preserve">
+    <value>Brokers</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCoberturas" xml:space="preserve">
+    <value>Coverages and Subcodes</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnSubCoberturas" xml:space="preserve">
+    <value>SubCoberts</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnExclusiones" xml:space="preserve">
+    <value>Exclusions</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnObtenerFacturas" xml:space="preserve">
+    <value>Get System Invoices</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnObtenerDoctosEmi" xml:space="preserve">
+    <value>Get Documents Issue</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnEndosos" xml:space="preserve">
+    <value>Endorsements</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnBusquedaInc" xml:space="preserve">
+    <value>Quick Search</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnBusquedaProd" xml:space="preserve">
+    <value>Quick Search</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnBusquedaLiaAvan" xml:space="preserve">
+    <value>Advanced search</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnBusquedaFacturas" xml:space="preserve">
+    <value>Quick Search</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnPolizasGeneradas" xml:space="preserve">
+    <value>Generated Policies</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnFacturasGeneral" xml:space="preserve">
+    <value>General Invoices</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCobranzaUniversal" xml:space="preserve">
+    <value>Universal Collection</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnIngresosEfectivo" xml:space="preserve">
+    <value>Cash Revenue</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnStatusDocumentaciónExternos" xml:space="preserve">
+    <value>External Documentation Status</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCompliance" xml:space="preserve">
+    <value>Compliance</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnDetallesEmpresa" xml:space="preserve">
+    <value>Company Details</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnAprobacionClientes" xml:space="preserve">
+    <value>Customer Approval</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnEndososEmision" xml:space="preserve">
+    <value>Emission Endorsements</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnPropiedades" xml:space="preserve">
+    <value>Properties</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnEditarIdioma" xml:space="preserve">
+    <value>Edit Language</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="grpIncoming" xml:space="preserve">
+    <value>Create and follow up policies</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpProducing" xml:space="preserve">
+    <value>Producing</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpAutomatizacion" xml:space="preserve">
+    <value>Automation</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpOpcionesAdicionalesEmi" xml:space="preserve">
+    <value>Additional options</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpCreditControl" xml:space="preserve">
+    <value>Credit Control</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="rgbCompliance" xml:space="preserve">
+    <value>Compliance</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpReportesEmision" xml:space="preserve">
+    <value>Broadcast reports</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpReportesFinanzas" xml:space="preserve">
+    <value>Finance Reports</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpReportesComision" xml:space="preserve">
+    <value>Commission Reports</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpCatalogosGral" xml:space="preserve">
+    <value>General Catalogs</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpCatalogosSistemas" xml:space="preserve">
+    <value>System catalogs</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="tabEmision" xml:space="preserve">
+    <value>Issuance</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="tabFacturacion" xml:space="preserve">
+    <value>Billing</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="tabCompliance" xml:space="preserve">
+    <value>Compliance</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="tabReportes" xml:space="preserve">
+    <value>Reports</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="tabCatalogos" xml:space="preserve">
+    <value>Catalogs</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="MainLiaInc" xml:space="preserve">
+    <value>Liability Incoming</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="lbOrigen" xml:space="preserve">
+    <value>Origin</value>
+    <comment>agregarEditarCoberturas</comment>
+  </data>
+  <data name="lbOrigenTxt" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Selector LOB</comment>
+  </data>
+  <data name="lbLineaNegocios" xml:space="preserve">
+    <value>Line of business</value>
+    <comment>agregarEditarCoberturas</comment>
+  </data>
+  <data name="cbLineaNegocios" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Selector LOB</comment>
+  </data>
+  <data name="btnAceptar" xml:space="preserve">
+    <value>Start</value>
+    <comment>Emision Selector LOB</comment>
+  </data>
+  <data name="btnChangeLog" xml:space="preserve">
+    <value>ChangeLog</value>
+  </data>
+  <data name="chkSublimitesTodos" xml:space="preserve">
+    <value>Add all coverages</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="chkTieInLimits" xml:space="preserve">
+    <value>Apply Tie-in Limits</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="grpTieInLimits" xml:space="preserve">
+    <value>Tie-in Limits Clause</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="lbExcesoConsejeros" xml:space="preserve">
+    <value>Excess for independent directors</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="lbFechaContinuidad" xml:space="preserve">
+    <value>Continuity date:</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="chkLimitada" xml:space="preserve">
+    <value>Unlimited</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="lbLimiteRespTieInLimits" xml:space="preserve">
+    <value>Limit of Liability</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="lbNumPolizaGlobal" xml:space="preserve">
+    <value>Global Policy Number:</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="lbProducto" xml:space="preserve">
+    <value>Product</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="btnEndososNinguno" xml:space="preserve">
+    <value>Remove All</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="btnEndososTodos" xml:space="preserve">
+    <value>Select All</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbTitularPolizaGlobal" xml:space="preserve">
+    <value>Holder Global Policy:</value>
+    <comment>Emision FL Incoming</comment>
+  </data>
+  <data name="chkAdminClaims" xml:space="preserve">
+    <value>Admin Claims</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbQuienCoaseguro" xml:space="preserve">
+    <value>Who will manage the Broker payments?</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCoaseBrokerageOtro" xml:space="preserve">
+    <value>Select the administrator Insurer:</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbPorcParticipacionXL" xml:space="preserve">
+    <value>% Participation XL</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCoasePorcBrokerage" xml:space="preserve">
+    <value>% Brokerage Commission</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbCoaseBrokerage" xml:space="preserve">
+    <value>$ Brokerage Commission</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="tabDeducibles" xml:space="preserve">
+    <value>Deductibles</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="lbJurisdiccion" xml:space="preserve">
+    <value>Jurisdiction:</value>
+    <comment>Emision FL Producing</comment>
+  </data>
+  <data name="lbPeriodoDescubrimiento" xml:space="preserve">
+    <value>Discovery period:</value>
+    <comment>Emision FL Producing</comment>
+  </data>
+  <data name="lbOtro" xml:space="preserve">
+    <value>Other</value>
+    <comment>Emision FL Producing</comment>
+  </data>
+  <data name="lbQuoteNumber" xml:space="preserve">
+    <value>Quote Number:</value>
+    <comment>Emision FL Producing</comment>
+  </data>
+  <data name="lbInteresAsegurable" xml:space="preserve">
+    <value>Insurable Interest:</value>
+    <comment>Emision Liability Producing</comment>
+  </data>
+  <data name="lbUbicacion" xml:space="preserve">
+    <value>Location of Risk:</value>
+    <comment>Emision Liability Producing</comment>
+  </data>
+  <data name="btnClausulasAdicionales" xml:space="preserve">
+    <value>Additional clauses contracted</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="btnGenerarDesglose" xml:space="preserve">
+    <value>Generate Breakdown</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="btnRecargarLimites" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="cbCombinadoSL" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="cbTipoLimite" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="chkLimites" xml:space="preserve">
+    <value>Limits apply</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="chkUbicaciones" xml:space="preserve">
+    <value>Locations Apply</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="dgDesglosePrima" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="dgLimites" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="dgUbicaciones" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpCalculoUbica" xml:space="preserve">
+    <value>2) Calculation of the locations</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpControlLimites" xml:space="preserve">
+    <value>Limit Control</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpControlUbicaciones" xml:space="preserve">
+    <value>Location Control</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpDesglosePrimaPrinc" xml:space="preserve">
+    <value>1) Enter the net premium written for the policy</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpLimitesInfo" xml:space="preserve">
+    <value>1) Limit Information</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpPrimaDesglose" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="grpUbicacionesProp" xml:space="preserve">
+    <value>1) Locations</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbBenefPref" xml:space="preserve">
+    <value>Preferred Beneficiary</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbLimiteManual" xml:space="preserve">
+    <value>2) Add a limit manually</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbMon17" xml:space="preserve">
+    <value>Mon17</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbPrimaInstruida" xml:space="preserve">
+    <value>Instructed premium</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbRecargarLimites" xml:space="preserve">
+    <value>1) Click to reload the default limits</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumBI" xml:space="preserve">
+    <value>Σ BI</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumConte" xml:space="preserve">
+    <value>Σ Contents</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumEdif" xml:space="preserve">
+    <value>Σ Buildings</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumInventa" xml:space="preserve">
+    <value>Σ Inventories</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumPD" xml:space="preserve">
+    <value>Σ PD</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbSumTotales" xml:space="preserve">
+    <value>Σ Total</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="lbTipoLimite" xml:space="preserve">
+    <value>Type of limit</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtBenefPref" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtLimiteManual" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtPrimaInstruida" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumBI" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumConte" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumEdif" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumInventa" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumPD" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="txtSumTotales" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Incoming</comment>
+  </data>
+  <data name="tabLimites" xml:space="preserve">
+    <value>Limits</value>
+    <comment>tabLimites</comment>
+  </data>
+  <data name="tabSublimites" xml:space="preserve">
+    <value>Sublimites</value>
+    <comment>tabSublimites</comment>
+  </data>
+  <data name="tabUbicaciones" xml:space="preserve">
+    <value>Locations</value>
+    <comment>tabUbicaciones</comment>
+  </data>
+  <data name="tabDesglose_de_Prima" xml:space="preserve">
+    <value>Premium Breakdown</value>
+    <comment>tabDesglose_de_Prima</comment>
+  </data>
+  <data name="btnGenerarUbi" xml:space="preserve">
+    <value>Generate New Table</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="btnImportarExcel" xml:space="preserve">
+    <value>Import from Excel</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="dgSeccionesWording" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="grpSeccionesWording" xml:space="preserve">
+    <value>1) Wording Sections</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="txtQuoteNumber" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="tabSecciones_Wording" xml:space="preserve">
+    <value>Wording Sections</value>
+    <comment>TabsNames Emision</comment>
+  </data>
+  <data name="lbBienesAsegurados" xml:space="preserve">
+    <value>Insured property:</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="lbValoresSeguro" xml:space="preserve">
+    <value>Insurance values:</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="MainFinancialLinesInc" xml:space="preserve">
+    <value>Financial Lines Incoming</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainFinancialLinesProd" xml:space="preserve">
+    <value>Financial Lines Producing</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainLiabilityProd" xml:space="preserve">
+    <value>Liability Producing</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainMarineInc" xml:space="preserve">
+    <value>Marine Incoming</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainMarineProd" xml:space="preserve">
+    <value>Marine Producing</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainPropertyInc" xml:space="preserve">
+    <value>Property Incoming</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="MainPropertyProd" xml:space="preserve">
+    <value>Property Producing</value>
+    <comment>Emision Ribbon Tabs</comment>
+  </data>
+  <data name="grpCancelaciones" xml:space="preserve">
+    <value>Cancellation Requests (Double Click to Process)</value>
+    <comment>Facturacion - AdministracionFacturas  - Control</comment>
+  </data>
+  <data name="grpCompletadas" xml:space="preserve">
+    <value>Cash Payment Records</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="grpBusqueda" xml:space="preserve">
+    <value>Search options</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="lbParametro" xml:space="preserve">
+    <value>Parameter:</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="lbBuscar" xml:space="preserve">
+    <value>Search:</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Search</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="grpPendientes" xml:space="preserve">
+    <value>Requests Pending Processing (Double Click to Edit)</value>
+    <comment>Facturacion - MisFacturas  - Control</comment>
+  </data>
+  <data name="tabSolicitudes" xml:space="preserve">
+    <value>Applications</value>
+    <comment>MainBrokers  tabControl</comment>
+  </data>
+  <data name="tabBase_de_Facturación" xml:space="preserve">
+    <value>Billing Basis</value>
+    <comment>Facturacion - AdministracionFacturas  - tabControl</comment>
+  </data>
+  <data name="tabCancelaciones" xml:space="preserve">
+    <value>Cancellations</value>
+    <comment>Facturacion - MisFacturas  - tabControl</comment>
+  </data>
+  <data name="tabCobranza_Universal" xml:space="preserve">
+    <value>Universal Collection</value>
+    <comment>Facturacion - AdministracionFacturas  - tabControl</comment>
+  </data>
+  <data name="btnRechazarSolicitud" xml:space="preserve">
+    <value>Reject Request</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnEditarSolicitud" xml:space="preserve">
+    <value>Edit Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnActualizar" xml:space="preserve">
+    <value>To update</value>
+    <comment>Compliance  - Compliance   - ribbontool</comment>
+  </data>
+  <data name="btnProcesarSeleccionadas" xml:space="preserve">
+    <value>Process Selected</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnCopiaRegistro" xml:space="preserve">
+    <value>Copy Registration</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnReprocesar" xml:space="preserve">
+    <value>Reprocess</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnGenerarRecibos" xml:space="preserve">
+    <value>Generate Receipts</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnEditarRegistro" xml:space="preserve">
+    <value>Edit Registry Status</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnVerErrores" xml:space="preserve">
+    <value>See Errors</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnProcesarCancelacion" xml:space="preserve">
+    <value>Process Cancellation</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="MainAdminFacturacion" xml:space="preserve">
+    <value>Administration Invoices</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontab</comment>
+  </data>
+  <data name="rbgSolicitudes" xml:space="preserve">
+    <value>Billing Requests</value>
+    <comment>Facturacion - MisFacturas  - ribbongroup</comment>
+  </data>
+  <data name="rgbBase" xml:space="preserve">
+    <value>Billing Basis</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbongroup</comment>
+  </data>
+  <data name="rgbCancelaciones" xml:space="preserve">
+    <value>Cancellations</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbongroup</comment>
+  </data>
+  <data name="rgbCobranzaUniversal" xml:space="preserve">
+    <value>Universal Collection</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbongroup</comment>
+  </data>
+  <data name="rbgActualizar" xml:space="preserve">
+    <value>Records</value>
+    <comment>Facturacion - MisFacturas  - ribbongroup</comment>
+  </data>
+  <data name="btnSeleccionar" xml:space="preserve">
+    <value>Select</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="grpRecibos" xml:space="preserve">
+    <value>Search for Payment Receipts</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="lbMotivo" xml:space="preserve">
+    <value>Registered reasons:</value>
+    <comment>Facturacion - CancelacionFacturas  - Control</comment>
+  </data>
+  <data name="lbObservacionesCC" xml:space="preserve">
+    <value>Observations Credit C.</value>
+    <comment>Facturacion - CancelacionFacturas  - Control</comment>
+  </data>
+  <data name="btnSolicitar" xml:space="preserve">
+    <value>Request a Cancellation</value>
+    <comment>Facturacion - selectorSolicitudCancelacion  - Control</comment>
+  </data>
+  <data name="btnCancelacion" xml:space="preserve">
+    <value>Reject the Cancellation Request</value>
+    <comment>Facturacion - CancelacionFacturas  - Control</comment>
+  </data>
+  <data name="btnCerrar" xml:space="preserve">
+    <value>Close</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="grpDatos" xml:space="preserve">
+    <value>Invoice data</value>
+    <comment>Facturacion - EditarFactura  - Control</comment>
+  </data>
+  <data name="lbCondiciones" xml:space="preserve">
+    <value>Payment conditions</value>
+    <comment>Facturacion - EditarFactura  - Control</comment>
+  </data>
+  <data name="grpMoneda" xml:space="preserve">
+    <value>1) Currency of the Invoice</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbTipoCambio" xml:space="preserve">
+    <value>Exchange rate:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="btnConsultarTipoCambio" xml:space="preserve">
+    <value>Consult</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpConceptos" xml:space="preserve">
+    <value>2) Concepts to Billing</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbSubtotal" xml:space="preserve">
+    <value>Subtotal:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbIVA" xml:space="preserve">
+    <value>% VAT:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbImpuestoTransladado" xml:space="preserve">
+    <value>Transed Tax:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbImpuestoRetenido" xml:space="preserve">
+    <value>Withheld Tax:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbTotal" xml:space="preserve">
+    <value>Total to Bill:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="chkImpuestoRetenido" xml:space="preserve">
+    <value>Apply Tax Withholding?</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpConfirmacion" xml:space="preserve">
+    <value>Confirmation for Timbrado</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpCliente" xml:space="preserve">
+    <value>1) Client / Receiver of the Invoice</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbCliente" xml:space="preserve">
+    <value>Client / Receiver</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbNombreAnexo" xml:space="preserve">
+    <value>Additional Name:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpCuentaPago" xml:space="preserve">
+    <value>2) Payment Account (Universal Collection)</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbCuentaMXN" xml:space="preserve">
+    <value>MXN account:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbSucursalUSD" xml:space="preserve">
+    <value>USD Branch:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbSucursalMXN" xml:space="preserve">
+    <value>Branch MXN:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbCuentaUSD" xml:space="preserve">
+    <value>USD Account:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="btnAsignarCuenta" xml:space="preserve">
+    <value>Assign a Payment account</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpDatosCFDI" xml:space="preserve">
+    <value>2) General Data of the CFDI</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbTipoDocumento" xml:space="preserve">
+    <value>Document type</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbSerie" xml:space="preserve">
+    <value>Series:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbCondicionesPago" xml:space="preserve">
+    <value>Payment conditions:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbMetodoPago" xml:space="preserve">
+    <value>Payment method:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbUsoCFDI" xml:space="preserve">
+    <value>Use of the CFDI:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpDatosGralPoliza" xml:space="preserve">
+    <value>General Data of the Policy</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbLimitePago" xml:space="preserve">
+    <value>Payment Limit:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbPlazoPago" xml:space="preserve">
+    <value>Payment deadline:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbFechaEmision" xml:space="preserve">
+    <value>Date of issue:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbFinVig" xml:space="preserve">
+    <value>End of Validity:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbPoliza" xml:space="preserve">
+    <value>Policy:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbRamo" xml:space="preserve">
+    <value>Insurance Branch:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbCoasegurador" xml:space="preserve">
+    <value>Lead Co-Insurer:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbParticipancion" xml:space="preserve">
+    <value>XL Insurance Participation%:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="grpDoctoRelacionado" xml:space="preserve">
+    <value>3) Related Document</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbTipoRelacion" xml:space="preserve">
+    <value>Type of Relationship:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="lbDoctoRelacionado" xml:space="preserve">
+    <value>Related Document:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="chkDoctoRelacionado" xml:space="preserve">
+    <value>Does this invoice relate to another document already issued?</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="tabDatos_Generales_CFDI" xml:space="preserve">
+    <value>General Data CFDI</value>
+    <comment>Facturacion - Facturacion  - tabControl</comment>
+  </data>
+  <data name="tabCliente" xml:space="preserve">
+    <value>Client</value>
+    <comment>Facturacion - Facturacion  - tabControl</comment>
+  </data>
+  <data name="tabConceptos" xml:space="preserve">
+    <value>Concepts</value>
+    <comment>Facturacion - Facturacion  - tabControl</comment>
+  </data>
+  <data name="btnGuardarAvances" xml:space="preserve">
+    <value>Save Advances</value>
+    <comment>Facturacion - Facturacion  - ribbontool</comment>
+  </data>
+  <data name="btnCerrarVentana" xml:space="preserve">
+    <value>Close the window</value>
+    <comment>Facturacion - Facturacion  - ribbontool</comment>
+  </data>
+  <data name="btnValidarRegistro" xml:space="preserve">
+    <value>Confirm registration</value>
+    <comment>Facturacion - Facturacion  - ribbontool</comment>
+  </data>
+  <data name="btnEnviarSolicitud" xml:space="preserve">
+    <value>Send request</value>
+    <comment>Facturacion - Facturacion  - ribbontool</comment>
+  </data>
+  <data name="MainFacturacion" xml:space="preserve">
+    <value>Invoice Request</value>
+    <comment>Facturacion - Facturacion  - ribbontab</comment>
+  </data>
+  <data name="rgbCerrar" xml:space="preserve">
+    <value>Options</value>
+    <comment>Facturacion - Facturacion  - ribbongroup</comment>
+  </data>
+  <data name="btnConsultarEdoCuenta" xml:space="preserve">
+    <value>Consult</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - Control</comment>
+  </data>
+  <data name="checkBox_Check" xml:space="preserve">
+    <value>checkBox Check</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - Control</comment>
+  </data>
+  <data name="tabEstados_de_Cuentas" xml:space="preserve">
+    <value>Statements of accounts</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - tabControl</comment>
+  </data>
+  <data name="btnImportarPortapapelesExcel" xml:space="preserve">
+    <value>Import Excel Clipboard</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbontool</comment>
+  </data>
+  <data name="btnGuardarenBasedeDatos" xml:space="preserve">
+    <value>Save in Database</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbontool</comment>
+  </data>
+  <data name="btnCargarRegistrosnoRelacionados" xml:space="preserve">
+    <value>Load Related Records</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbontool</comment>
+  </data>
+  <data name="btnConsultarRegistosRelacionados" xml:space="preserve">
+    <value>Consult the Registers Linked to Journals</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbontool</comment>
+  </data>
+  <data name="btnGenerarReporte" xml:space="preserve">
+    <value>Generate Report</value>
+    <comment>Compliance  - Compliance   - ribbontool</comment>
+  </data>
+  <data name="MainEstadoCuenta" xml:space="preserve">
+    <value>Account statements</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbontab</comment>
+  </data>
+  <data name="rgbIngreso" xml:space="preserve">
+    <value>Account Entry</value>
+    <comment>Facturacion - IngresoEstadoCuentaBancarios  - ribbongroup</comment>
+  </data>
+  <data name="rgbActualizar" xml:space="preserve">
+    <value>Update Client</value>
+    <comment>Catalogos - clientes  - ribbongroup</comment>
+  </data>
+  <data name="grpComplementos" xml:space="preserve">
+    <value>Payment supplements</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="grpBusquedaComplementos" xml:space="preserve">
+    <value>Search for payment complements</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="lbParametrosComplementos" xml:space="preserve">
+    <value>Parameter:</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="lbBuscarComplementos" xml:space="preserve">
+    <value>Search:</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="btnBuscarComplementos" xml:space="preserve">
+    <value>Consult</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="grpJournal" xml:space="preserve">
+    <value>Applications pending application (Double click to search receipt)</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="grpBusquedaJournal" xml:space="preserve">
+    <value>Revenue search Journal / Daily Cash</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="lbParametroJournal" xml:space="preserve">
+    <value>Parameter:</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="lbBuscarJournal" xml:space="preserve">
+    <value>Search:</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="btnBuscarJournal" xml:space="preserve">
+    <value>Consult</value>
+    <comment>Facturacion - Ingresos  - Control</comment>
+  </data>
+  <data name="tabIngresos_-_Daily_Cash" xml:space="preserve">
+    <value>Income - Daily Cash</value>
+    <comment>Facturacion - Ingresos  - tabControl</comment>
+  </data>
+  <data name="tabComplementos_de_Pago" xml:space="preserve">
+    <value>Payment Supplements</value>
+    <comment>Facturacion - Ingresos  - tabControl</comment>
+  </data>
+  <data name="btnIngresarJournal" xml:space="preserve">
+    <value>Enter Journal</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnIngresarEdoCuentaBanamex" xml:space="preserve">
+    <value>Enter State Account</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnBuscarRecibo" xml:space="preserve">
+    <value>Search Receipt</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnGenerarComprobante" xml:space="preserve">
+    <value>Generate Proof</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnDividirJournal" xml:space="preserve">
+    <value>Split Journal</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnReprocesarPrintFile" xml:space="preserve">
+    <value>Reprocess PrintFile</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="btnCancelarComprobante" xml:space="preserve">
+    <value>Cancel Voucher</value>
+    <comment>Facturacion - Ingresos  - ribbontool</comment>
+  </data>
+  <data name="MainIngresos" xml:space="preserve">
+    <value>Income and Supplements</value>
+    <comment>Facturacion - Ingresos  - ribbontab</comment>
+  </data>
+  <data name="rgbIngresos" xml:space="preserve">
+    <value>Revenue: Daily Cash / Journal</value>
+    <comment>Facturacion - Ingresos  - ribbongroup</comment>
+  </data>
+  <data name="rgbComplementos" xml:space="preserve">
+    <value>Payment Supplements</value>
+    <comment>Facturacion - Ingresos  - ribbongroup</comment>
+  </data>
+  <data name="grpCancelacionesMisFacturas" xml:space="preserve">
+    <value>Cancellation Requests</value>
+    <comment>Facturacion - MisFacturas  - Control</comment>
+  </data>
+  <data name="grpRechazadas" xml:space="preserve">
+    <value>Requests Rejected by Credit Control (Double Click to Edit)</value>
+    <comment>Facturacion - MisFacturas  - Control</comment>
+  </data>
+  <data name="grpBusquedaCompletadas" xml:space="preserve">
+    <value>Search of Invoices</value>
+    <comment>Facturacion - MisFacturas  - Control</comment>
+  </data>
+  <data name="tabPendientes" xml:space="preserve">
+    <value>Slopes</value>
+    <comment>Facturacion - MisFacturas  - tabControl</comment>
+  </data>
+  <data name="tabCompletadas" xml:space="preserve">
+    <value>Completed</value>
+    <comment>Facturacion - MisFacturas  - tabControl</comment>
+  </data>
+  <data name="tabRechazadas" xml:space="preserve">
+    <value>Rejected</value>
+    <comment>Facturacion - MisFacturas  - tabControl</comment>
+  </data>
+  <data name="btnRecuperarSolicitud" xml:space="preserve">
+    <value>Recover Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnBorrarSolicitud" xml:space="preserve">
+    <value>Delete Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnDuplicarSolicitud" xml:space="preserve">
+    <value>Duplicate Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnNuevaSolicituddeCancelacion" xml:space="preserve">
+    <value>New Cancellation Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnDescargarDocumentos" xml:space="preserve">
+    <value>Download Documents</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnEliminarSolicitud" xml:space="preserve">
+    <value>Delete Request</value>
+    <comment>Facturacion - MisFacturas  - ribbontool</comment>
+  </data>
+  <data name="MainMisFacturas" xml:space="preserve">
+    <value>My bills</value>
+    <comment>Facturacion - MisFacturas  - ribbontab</comment>
+  </data>
+  <data name="rbgCompletadas" xml:space="preserve">
+    <value>Completed Invoices</value>
+    <comment>Facturacion - MisFacturas  - ribbongroup</comment>
+  </data>
+  <data name="rbgCancelaciones" xml:space="preserve">
+    <value>Requests Cancellation</value>
+    <comment>Facturacion - MisFacturas  - ribbongroup</comment>
+  </data>
+  <data name="lbMotivoCancela" xml:space="preserve">
+    <value>Enter a Cancellation reason for your Request:</value>
+    <comment>Facturacion - MotivosCancelacion  - Control</comment>
+  </data>
+  <data name="lbFactura" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Facturacion - MotivosCancelacion  - Control</comment>
+  </data>
+  <data name="lbFormaPagoSAT" xml:space="preserve">
+    <value>Select the form of Payment</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="btnSeleFormaPagoSAT" xml:space="preserve">
+    <value>Select</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="lbBancoExt" xml:space="preserve">
+    <value>Enter the Foreign Bank Originator</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="btnBancoExt" xml:space="preserve">
+    <value>Select</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="btnSeleFormaPago" xml:space="preserve">
+    <value>Apply for</value>
+    <comment>Facturacion - SeleccionVariable  - Control</comment>
+  </data>
+  <data name="lbOpciones" xml:space="preserve">
+    <value>Choose an option</value>
+    <comment>Facturacion - selectorSolicitudCancelacion  - Control</comment>
+  </data>
+  <data name="btnGenerarCancelacion" xml:space="preserve">
+    <value>Generate a Cancellation</value>
+    <comment>Facturacion - selectorSolicitudCancelacion  - Control</comment>
+  </data>
+  <data name="btnSalir" xml:space="preserve">
+    <value>Close</value>
+    <comment>Catalogos - EditarEmpresa  - ribbontool</comment>
+  </data>
+  <data name="lbStatusLogin" xml:space="preserve">
+    <value>Server status</value>
+  </data>
+  <data name="btnAceptarSolicitud" xml:space="preserve">
+    <value>Accept request</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnAgreagarDirecciones" xml:space="preserve">
+    <value>Add Directions</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnAgregar" xml:space="preserve">
+    <value>Add file</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="btnAgregarDireccion" xml:space="preserve">
+    <value>Add Address</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="btnAgregarElemento" xml:space="preserve">
+    <value>Add Element</value>
+    <comment>Catalogos - mainToByPO  - ribbontool</comment>
+  </data>
+  <data name="btnAgregarNuevoCliente" xml:space="preserve">
+    <value>New client</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnAgregarNuevoUsuario" xml:space="preserve">
+    <value>New user</value>
+    <comment>Catalogos - Usuarios  - ribbontool</comment>
+  </data>
+  <data name="btnAgregarTOB" xml:space="preserve">
+    <value>Select</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="btnApliacr" xml:space="preserve">
+    <value>Copy Permissions</value>
+    <comment>Catalogos - UsuariosPerfilCopiar  - Control</comment>
+  </data>
+  <data name="btnAplicarCambios" xml:space="preserve">
+    <value>Apply changes</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbontool</comment>
+  </data>
+  <data name="btnBuscarFirma" xml:space="preserve">
+    <value>Search Signature</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="btnBuscarLogo" xml:space="preserve">
+    <value>Search Logo</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="btnCambiar" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Catalogos - ResetPassword  - Control</comment>
+  </data>
+  <data name="btnCancelarCambios" xml:space="preserve">
+    <value>Cancel Changes</value>
+    <comment>Catalogos - mainToByPO  - ribbontool</comment>
+  </data>
+  <data name="btnCancelarDireccion" xml:space="preserve">
+    <value>Cancel Edition</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="btnConsultarTexto" xml:space="preserve">
+    <value>See Text</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="btnCopiarPerfil" xml:space="preserve">
+    <value>Copy User Permissions</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbontool</comment>
+  </data>
+  <data name="btnDescartarSalir" xml:space="preserve">
+    <value>Discard and Exit</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbontool</comment>
+  </data>
+  <data name="btnDireccionesCancelar" xml:space="preserve">
+    <value>Close Edition</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnDireccionGuardar" xml:space="preserve">
+    <value>Save Changes</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnEdiarClienteEnviarSolicitud" xml:space="preserve">
+    <value>Request Changes</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnEliminarElemento" xml:space="preserve">
+    <value>Remove Element</value>
+    <comment>Catalogos - mainToByPO  - ribbontool</comment>
+  </data>
+  <data name="btnEliminarEndoso" xml:space="preserve">
+    <value>Remove Endorsement</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="btnEliminarUsuario" xml:space="preserve">
+    <value>Delete User</value>
+    <comment>Catalogos - Usuarios  - ribbontool</comment>
+  </data>
+  <data name="btnGuardar" xml:space="preserve">
+    <value>Save</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="btnGuardar Cambios" xml:space="preserve">
+    <value>Save Changes</value>
+    <comment>Catalogos - EditarEmpresa  - ribbontool</comment>
+  </data>
+  <data name="btnGuardarCambios" xml:space="preserve">
+    <value>Save Changes</value>
+    <comment>Catalogos - mainToByPO  - ribbontool</comment>
+  </data>
+  <data name="btnIngresarTexto" xml:space="preserve">
+    <value>Enter Text</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="btnModificarCliente" xml:space="preserve">
+    <value>Modify Client</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnModificarClienteCancelar" xml:space="preserve">
+    <value>Cancel Changes</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnModificarElemento" xml:space="preserve">
+    <value>Modify Element</value>
+    <comment>Catalogos - mainToByPO  - ribbontool</comment>
+  </data>
+  <data name="btnModificarEndoso" xml:space="preserve">
+    <value>Modify Endorsement</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="btnModificarUsuario" xml:space="preserve">
+    <value>Modify User</value>
+    <comment>Catalogos - Usuarios  - ribbontool</comment>
+  </data>
+  <data name="btnNuevoClienteCancelar" xml:space="preserve">
+    <value>Cancel request</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnNuevoClienteSolicitarCambios" xml:space="preserve">
+    <value>Request Customer</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnNuevoEndoso" xml:space="preserve">
+    <value>New Endorsement</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="btnRechazar" xml:space="preserve">
+    <value>Reject request</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+    <comment>Catalogos - Usuarios  - ribbontool</comment>
+  </data>
+  <data name="btnRevisarSolicitudes" xml:space="preserve">
+    <value>Review Requests</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnSeleccionarLN" xml:space="preserve">
+    <value>Select</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="btnSeleccionartodo" xml:space="preserve">
+    <value>Select all</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbontool</comment>
+  </data>
+  <data name="cbBusquedaLineaNegocios" xml:space="preserve">
+    <value>L.Neg</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="cbBusquedaNombreEndoso" xml:space="preserve">
+    <value>Endorsement</value>
+    <comment>Catalogos - mainEndosos  - ribbontool</comment>
+  </data>
+  <data name="chkDefault" xml:space="preserve">
+    <value>Default</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="chkExtranjero" xml:space="preserve">
+    <value>Foreign Customer</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="chkNameCodePrincipal" xml:space="preserve">
+    <value>Main NameCode</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="chkNameCodePrincipalMod" xml:space="preserve">
+    <value>Principal</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="chkNameCodePrincipalOri" xml:space="preserve">
+    <value>Principal</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpAsignarToB" xml:space="preserve">
+    <value>3) Assign the Trade of Business to the Production Office</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="grpBaseAsegurados" xml:space="preserve">
+    <value>Select a client to edit (double click to edit)</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpBaseUsuarios" xml:space="preserve">
+    <value>Select a user to edit (double click to edit)</value>
+    <comment>Catalogos - Usuarios  - Control</comment>
+  </data>
+  <data name="grpDatosCliente" xml:space="preserve">
+    <value>2) Enter the Client / Insured data</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="grpDatosModificados" xml:space="preserve">
+    <value>Modified customer data</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpDatosOriginales" xml:space="preserve">
+    <value>Original data of the client</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpDireccion" xml:space="preserve">
+    <value>3) Enter the tax address of the client / insured</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="grpEmpresa" xml:space="preserve">
+    <value>Editing Company data</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="grpFiltros" xml:space="preserve">
+    <value>Filters</value>
+    <comment>Catalogos - mainEndosos  - ribbongroup</comment>
+  </data>
+  <data name="grpLineaNegociosToB" xml:space="preserve">
+    <value>1) Select the Business line</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="grpLN" xml:space="preserve">
+    <value>3) Assign the selected Production Office to a Business Line</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="grpLNMain" xml:space="preserve">
+    <value>2) Assigned Business Lines</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="grpLNPOTOB" xml:space="preserve">
+    <value>2) Select a Production Office to which to link the Trade of Business (double click to select)</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="grpModificación" xml:space="preserve">
+    <value>General Data for Modification</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpNacionalidad" xml:space="preserve">
+    <value>General data</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="grpPOLN" xml:space="preserve">
+    <value>1) Producing Office list (double click to edit it)</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="lbAnexo" xml:space="preserve">
+    <value>Annexed:</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="lbApellidoM" xml:space="preserve">
+    <value>Mother's last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbApellidoMaterno" xml:space="preserve">
+    <value>Mother's last name</value>
+    <comment>Catalogos - UsuariosEditar_  - Control</comment>
+  </data>
+  <data name="lbApellidoMMod" xml:space="preserve">
+    <value>Mother's last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbApellidoMOri" xml:space="preserve">
+    <value>Mother's last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbApellidoP" xml:space="preserve">
+    <value>Last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbApellidoPaterno" xml:space="preserve">
+    <value>Last name</value>
+    <comment>Catalogos - UsuariosEditar_  - Control</comment>
+  </data>
+  <data name="lbApellidoPMod" xml:space="preserve">
+    <value>Last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbApellidoPOri" xml:space="preserve">
+    <value>Last name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbCalle" xml:space="preserve">
+    <value>Street:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbCodRegimen" xml:space="preserve">
+    <value>Tax Regime Code:</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="lbColonia" xml:space="preserve">
+    <value>Colony:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbCP" xml:space="preserve">
+    <value>Postal Code:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbCurp" xml:space="preserve">
+    <value>CURP:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbCurpMod" xml:space="preserve">
+    <value>CURP:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbCurpOri" xml:space="preserve">
+    <value>CURP:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbDirecciones" xml:space="preserve">
+    <value>Registered Addresses (Double Click to Edit):</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbEmail" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbEmailMod" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbEmailOri" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbEstado" xml:space="preserve">
+    <value>State:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbFiel" xml:space="preserve">
+    <value>FIELD / ID ext</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbFielMod" xml:space="preserve">
+    <value>FIELD / ID ext</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbFielOri" xml:space="preserve">
+    <value>FIELD / ID ext</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbFirma" xml:space="preserve">
+    <value>Signature of legal representative:</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="lbFlecha" xml:space="preserve">
+    <value>→</value>
+    <comment>Catalogos - UsuariosPerfilCopiar  - Control</comment>
+  </data>
+  <data name="lbGiro" xml:space="preserve">
+    <value>Business rotation:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbGiroMod" xml:space="preserve">
+    <value>Business rotation:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbGroOri" xml:space="preserve">
+    <value>Business rotation:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbLNToB" xml:space="preserve">
+    <value>Line of business:</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="lbLocalidad" xml:space="preserve">
+    <value>Location:</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="lbLogo" xml:space="preserve">
+    <value>Company logo:</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="lbMunicipio" xml:space="preserve">
+    <value>Town hall / Delegation:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbNacionalidad" xml:space="preserve">
+    <value>Nationality:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNameCodeMod" xml:space="preserve">
+    <value>NameCode:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNameCodeOri" xml:space="preserve">
+    <value>NameCode:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNameCodeSeleccion" xml:space="preserve">
+    <value>Select a client with main NC:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbNamwCode" xml:space="preserve">
+    <value>NameCode:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNombre" xml:space="preserve">
+    <value>First name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNombreEndoso" xml:space="preserve">
+    <value>Name Endorsement:</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="lbNombrePO" xml:space="preserve">
+    <value>Line of business:</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="lbNomMod" xml:space="preserve">
+    <value>First name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNomnbreOri" xml:space="preserve">
+    <value>First name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbNumExt" xml:space="preserve">
+    <value>Outdoor Number:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbNumInt" xml:space="preserve">
+    <value>Interior number:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbPais" xml:space="preserve">
+    <value>Country:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbPass" xml:space="preserve">
+    <value>New Password</value>
+    <comment>Catalogos - ResetPassword  - Control</comment>
+  </data>
+  <data name="lbPOSel" xml:space="preserve">
+    <value>Producing Office:</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="lbRazonSocial" xml:space="preserve">
+    <value>Business name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbRazonSocialMod" xml:space="preserve">
+    <value>Business name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbRazonSocialOri" xml:space="preserve">
+    <value>Business name:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbRegimen" xml:space="preserve">
+    <value>Tax Regime:</value>
+    <comment>Catalogos - EditarEmpresa  - Control</comment>
+  </data>
+  <data name="lbRepePass" xml:space="preserve">
+    <value>Repeat Password</value>
+    <comment>Catalogos - ResetPassword  - Control</comment>
+  </data>
+  <data name="lbRfc" xml:space="preserve">
+    <value>RFC:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbRfcMod" xml:space="preserve">
+    <value>RFC:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbRFCOri" xml:space="preserve">
+    <value>RFC:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTelefono" xml:space="preserve">
+    <value>Phone:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTelefonoMod" xml:space="preserve">
+    <value>Phone:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTelefonoOri" xml:space="preserve">
+    <value>Phone:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTexto" xml:space="preserve">
+    <value>Text entered:</value>
+    <comment>Catalogos - EndosoEdit  - Control</comment>
+  </data>
+  <data name="lbTipoCliente" xml:space="preserve">
+    <value>Customer type:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTipoClienteMod" xml:space="preserve">
+    <value>Customer type:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbtipoClienteOri" xml:space="preserve">
+    <value>Customer type:</value>
+    <comment>Catalogos - AprobacionClientes  - Control</comment>
+  </data>
+  <data name="lbTipoUsuario" xml:space="preserve">
+    <value>Type of user</value>
+    <comment>Catalogos - UsuariosEditar_  - Control</comment>
+  </data>
+  <data name="lbTOBDisponibles" xml:space="preserve">
+    <value>Trade of Business:</value>
+    <comment>Catalogos - mainToByPO  - Control</comment>
+  </data>
+  <data name="lbUserName" xml:space="preserve">
+    <value>User name:</value>
+    <comment>Catalogos - UsuariosEditar_  - Control</comment>
+  </data>
+  <data name="lbUsuarioDestino" xml:space="preserve">
+    <value>User profile Receiver:</value>
+    <comment>Catalogos - UsuariosPerfilCopiar  - Control</comment>
+  </data>
+  <data name="lbUsuarioRemitente" xml:space="preserve">
+    <value>User profile to Copy:</value>
+    <comment>Catalogos - UsuariosPerfilCopiar  - Control</comment>
+  </data>
+  <data name="MainAprobacionClientes" xml:space="preserve">
+    <value>Customers Approval</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontab</comment>
+  </data>
+  <data name="MainClientes" xml:space="preserve">
+    <value>customers</value>
+    <comment>Catalogos - clientes  - ribbontab</comment>
+  </data>
+  <data name="MainEditarEmpresa" xml:space="preserve">
+    <value>Edit Company</value>
+    <comment>Catalogos - EditarEmpresa  - ribbontab</comment>
+  </data>
+  <data name="MainEndosoEmi" xml:space="preserve">
+    <value>Endorsements</value>
+    <comment>Catalogos - mainEndosos  - ribbontab</comment>
+  </data>
+  <data name="MainToBPO" xml:space="preserve">
+    <value>ToB Catalog - Producing Office</value>
+    <comment>Catalogos - mainToByPO  - ribbontab</comment>
+  </data>
+  <data name="MainUsuarios" xml:space="preserve">
+    <value>Users</value>
+    <comment>Catalogos - Usuarios  - ribbontab</comment>
+  </data>
+  <data name="MainUsuariosPerfil" xml:space="preserve">
+    <value>Profile Users</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbontab</comment>
+  </data>
+  <data name="rbgUpdate" xml:space="preserve">
+    <value>To update</value>
+    <comment>Catalogos - AprobacionClientes  - ribbongroup</comment>
+  </data>
+  <data name="rgbCliente" xml:space="preserve">
+    <value>New client</value>
+    <comment>Catalogos - AprobacionClientes  - ribbongroup</comment>
+  </data>
+  <data name="rgbCopiar" xml:space="preserve">
+    <value>Copy Options</value>
+    <comment>Catalogos - UsuariosPerfil  - ribbongroup</comment>
+  </data>
+  <data name="rgbDirecciones" xml:space="preserve">
+    <value>Addresses</value>
+    <comment>Catalogos - clientes  - ribbongroup</comment>
+  </data>
+  <data name="rgbMenu" xml:space="preserve">
+    <value>Edit options</value>
+    <comment>Catalogos - clientes  - ribbongroup</comment>
+  </data>
+  <data name="rgbNuevo" xml:space="preserve">
+    <value>New client</value>
+    <comment>Catalogos - clientes  - ribbongroup</comment>
+  </data>
+  <data name="rgpOpcionesPO" xml:space="preserve">
+    <value>Options</value>
+    <comment>Catalogos - mainToByPO  - ribbongroup</comment>
+  </data>
+  <data name="rgpOpcionesTOB" xml:space="preserve">
+    <value>Options</value>
+    <comment>Catalogos - mainToByPO  - ribbongroup</comment>
+  </data>
+  <data name="ribbonGroup1" xml:space="preserve">
+    <value>Edition</value>
+    <comment>Catalogos - EditarEmpresa  - ribbongroup</comment>
+  </data>
+  <data name="tabBase_asegurados" xml:space="preserve">
+    <value>Insured base</value>
+    <comment>Catalogos - clientes  - tabControl</comment>
+  </data>
+  <data name="tabCliente_Modificado" xml:space="preserve">
+    <value>Modified Client</value>
+    <comment>Catalogos - AprobacionClientes  - tabControl</comment>
+  </data>
+  <data name="tabEditar_asegurado" xml:space="preserve">
+    <value>Edit insured</value>
+    <comment>Catalogos - clientes  - tabControl</comment>
+  </data>
+  <data name="tabEmpresa_Detalles" xml:space="preserve">
+    <value>Company Details</value>
+    <comment>Catalogos - EditarEmpresa  - tabControl</comment>
+  </data>
+  <data name="tabNuevo_Cliente" xml:space="preserve">
+    <value>New client</value>
+    <comment>Catalogos - AprobacionClientes  - tabControl</comment>
+  </data>
+  <data name="tabPerfiles_de_Usuario" xml:space="preserve">
+    <value>User Profiles</value>
+    <comment>Catalogos - UsuariosPerfil  - tabControl</comment>
+  </data>
+  <data name="tabProducing_Office" xml:space="preserve">
+    <value>Producing Office</value>
+    <comment>Catalogos - mainToByPO  - tabControl</comment>
+  </data>
+  <data name="tabRelaciones_PO_-_Linea_de_Negocios" xml:space="preserve">
+    <value>PO Relations - Business Line</value>
+    <comment>Catalogos - mainToByPO  - tabControl</comment>
+  </data>
+  <data name="tabRelaciones_ToB_-_PO" xml:space="preserve">
+    <value>ToB relations - PO</value>
+    <comment>Catalogos - mainToByPO  - tabControl</comment>
+  </data>
+  <data name="tabSeleccionar_Solicitud" xml:space="preserve">
+    <value>Select Request</value>
+    <comment>Catalogos - AprobacionClientes  - tabControl</comment>
+  </data>
+  <data name="tabTrade_of_Business" xml:space="preserve">
+    <value>Trade of Business</value>
+    <comment>Catalogos - mainToByPO  - tabControl</comment>
+  </data>
+  <data name="tabUsuarios__actuales" xml:space="preserve">
+    <value>Current users</value>
+    <comment>Catalogos - Usuarios  - tabControl</comment>
+  </data>
+  <data name="btnReportarError" xml:space="preserve">
+    <value>Report an Error</value>
+    <comment>Funcion Otros  - Reportar Errores</comment>
+  </data>
+  <data name="PopupMenuPropiedades" xml:space="preserve">
+    <value>Properties</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="PopupMenuNuevo" xml:space="preserve">
+    <value>New</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="PopupMenuSalir" xml:space="preserve">
+    <value>Exit</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="PopupMenuAyuda" xml:space="preserve">
+    <value>Help</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="FileMenuButton" xml:space="preserve">
+    <value>Main</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnGenenerarComprobante" xml:space="preserve">
+    <value>Generate Payment Receipts</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="grpRecibosSeleccionados" xml:space="preserve">
+    <value>Selected Receipts</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="lbSnum" xml:space="preserve">
+    <value>S. Number:</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="lbMonedaJournal" xml:space="preserve">
+    <value>Original Currency:</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="lbTotalJournal" xml:space="preserve">
+    <value>Total of the Journal:</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="lbJournalAplicado" xml:space="preserve">
+    <value>Applied amount</value>
+    <comment>Facturacion - BuscarRecibo  - Control</comment>
+  </data>
+  <data name="agregarUnNuevoUsuarioToolStripMenuItem" xml:space="preserve">
+    <value>Add a new user</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lbAuditNumber" xml:space="preserve">
+    <value>Genius Audit Number:</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="btnEditarRecibos" xml:space="preserve">
+    <value>Edit Receipts</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="btnTimbradoFacturas" xml:space="preserve">
+    <value>Invoices issuance configuration </value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnTimbrar" xml:space="preserve">
+    <value>Stamp Document</value>
+    <comment>Facturacion - ConfirmacionTimbrado  - Control</comment>
+  </data>
+  <data name="lbTimbrado" xml:space="preserve">
+    <value>The document will be stamped with the following characteristics:</value>
+    <comment>Facturacion - ConfirmacionTimbrado  - Control</comment>
+  </data>
+  <data name="lbTotalFactura" xml:space="preserve">
+    <value>Total bill:</value>
+    <comment>Facturacion - RecibosPagoEdicion  - Control</comment>
+  </data>
+  <data name="lbTotalRecibos" xml:space="preserve">
+    <value>Total on Receipts</value>
+    <comment>Facturacion - RecibosPagoEdicion  - Control</comment>
+  </data>
+  <data name="lbMensajeTipoCambio" xml:space="preserve">
+    <value>The currency of the selected receipt (MXN) does not match the currency of the Journal (USD), please enter the exchange rate for this operation in order to continue:</value>
+    <comment>Facturacion - tipoCambio  - Control</comment>
+  </data>
+  <data name="lbTipoCambio1" xml:space="preserve">
+    <value>Exchange rate</value>
+    <comment>Facturacion - tipoCambio  - Control</comment>
+  </data>
+  <data name="lbTipoCambio2" xml:space="preserve">
+    <value>MXN&gt; USD</value>
+    <comment>Facturacion - tipoCambio  - Control</comment>
+  </data>
+  <data name="btnConsultar" xml:space="preserve">
+    <value>Consult</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="lbDesde" xml:space="preserve">
+    <value>Since:</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="lbHasta" xml:space="preserve">
+    <value>Until:</value>
+    <comment>Compliance  - Compliance   - Control</comment>
+  </data>
+  <data name="tabPagos_Efectivo" xml:space="preserve">
+    <value>Cash Payments</value>
+    <comment>Compliance  - Compliance   - tabControl</comment>
+  </data>
+  <data name="btnGeneraryEnviaraCompliance" xml:space="preserve">
+    <value>Generate and Send to Compliance</value>
+    <comment>Compliance  - Compliance   - ribbontool</comment>
+  </data>
+  <data name="MainCompliance" xml:space="preserve">
+    <value>Compliance</value>
+    <comment>Compliance  - Compliance   - ribbontab</comment>
+  </data>
+  <data name="grbActualizar" xml:space="preserve">
+    <value>To update</value>
+    <comment>Compliance  - Compliance   - ribbongroup</comment>
+  </data>
+  <data name="grpReportes" xml:space="preserve">
+    <value>Reports</value>
+    <comment>Compliance  - Compliance   - ribbongroup</comment>
+  </data>
+  <data name="lbTipoBusqueda" xml:space="preserve">
+    <value>Documents Issue</value>
+    <comment>Operaciones  - DescargarDocumentos   - Control</comment>
+  </data>
+  <data name="cbLNMain" xml:space="preserve">
+    <value>cbLNMain</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontool</comment>
+  </data>
+  <data name="ctrlLineaNegocios" xml:space="preserve">
+    <value>L. Business</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontool</comment>
+  </data>
+  <data name="ctrlFiltro" xml:space="preserve">
+    <value>Filter</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontool</comment>
+  </data>
+  <data name="ctrlBuscar" xml:space="preserve">
+    <value>Search</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontool</comment>
+  </data>
+  <data name="lbBusqueda" xml:space="preserve">
+    <value>N/A</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontool</comment>
+  </data>
+  <data name="rbnMainDescargas" xml:space="preserve">
+    <value>Download Documents</value>
+    <comment>Operaciones  - DescargarDocumentos   - ribbontab</comment>
+  </data>
+  <data name="lbAgregarFiles" xml:space="preserve">
+    <value>Add documents:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbDescripcionInterna" xml:space="preserve">
+    <value>Internal description of the error:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="btnEnviar" xml:space="preserve">
+    <value>Send Report</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbDescripcionError" xml:space="preserve">
+    <value>Description of the error:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbTipoError" xml:space="preserve">
+    <value>Type of error detected</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbTituloError" xml:space="preserve">
+    <value>Error title:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbModulo" xml:space="preserve">
+    <value>Affected system module</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbFecha" xml:space="preserve">
+    <value>Shipping date:</value>
+    <comment>Operaciones  - ErrorHandler   - Control</comment>
+  </data>
+  <data name="lbDesbloquear" xml:space="preserve">
+    <value>The system has been blocked due to inactivity, enter your password</value>
+  </data>
+  <data name="tabCatálogo" xml:space="preserve">
+    <value>Catalog</value>
+    <comment>MainBrokers  tabControl</comment>
+  </data>
+  <data name="btnAgregarBroker" xml:space="preserve">
+    <value>Add broker</value>
+    <comment>MainBrokers   ribbontool</comment>
+  </data>
+  <data name="btnEditarBroker" xml:space="preserve">
+    <value>Edit Broker</value>
+    <comment>MainBrokers   ribbontool</comment>
+  </data>
+  <data name="btnEliminarBroker" xml:space="preserve">
+    <value>Delete Broker</value>
+    <comment>MainBrokers   ribbontool</comment>
+  </data>
+  <data name="btnAutorizarBroker" xml:space="preserve">
+    <value>Authorize Broker</value>
+    <comment>MainBrokers   ribbontool</comment>
+  </data>
+  <data name="btnCancelarSolicitud" xml:space="preserve">
+    <value>Cancel Request</value>
+    <comment>MainBrokers   ribbontool</comment>
+  </data>
+  <data name="MainBrokers" xml:space="preserve">
+    <value>Broker Catalog</value>
+    <comment>MainBrokers   ribbontab</comment>
+  </data>
+  <data name="grpMainBrokers" xml:space="preserve">
+    <value>Main</value>
+    <comment>MainBrokers  ribbongroup</comment>
+  </data>
+  <data name="PopupMenuOpciones" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="lbEsperaBloqueoTiempo" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="lbEsperaBloqueo" xml:space="preserve">
+    <value>Downtime for SmartG lock</value>
+  </data>
+  <data name="PopupEditarUsuario" xml:space="preserve">
+    <value>Edit User Data</value>
+  </data>
+  <data name="lbBrokerCode" xml:space="preserve">
+    <value>Broker Code</value>
+    <comment>AgregarEditarBrokers</comment>
+  </data>
+  <data name="tabSubCoberturas" xml:space="preserve">
+    <value>SubCoverages</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="btnAgregarCobertura" xml:space="preserve">
+    <value>Add Element</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="btnEditarCobertura" xml:space="preserve">
+    <value>Edit Element</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="btnEliminarCobertura" xml:space="preserve">
+    <value>Remove Element</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="ribbonPrincipal" xml:space="preserve">
+    <value>Catalog of Coverages and SubCoverages</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="grpPrincipal" xml:space="preserve">
+    <value>Main</value>
+    <comment>MainCoberturasSubCoberturas</comment>
+  </data>
+  <data name="lbCobertura" xml:space="preserve">
+    <value>Coverage (spanish)</value>
+    <comment>agregarEditarCoberturas</comment>
+  </data>
+  <data name="lbCoberturaIngles" xml:space="preserve">
+    <value>Coverage (english)</value>
+    <comment>agregarEditarCoberturas</comment>
+  </data>
+  <data name="lbGeniusCode" xml:space="preserve">
+    <value>Genius Code</value>
+    <comment>agregarEditarCoberturas</comment>
+  </data>
+  <data name="chkDefecto" xml:space="preserve">
+    <value>Default</value>
+    <comment>agregarEditarSubCobertura</comment>
+  </data>
+  <data name="lbCoberturaPrincipal" xml:space="preserve">
+    <value>Assigned Coverage</value>
+    <comment>agregarEditarSubCobertura</comment>
+  </data>
+  <data name="lbSubCobertura" xml:space="preserve">
+    <value>SubCoverage</value>
+    <comment>agregarEditarSubCobertura</comment>
+  </data>
+  <data name="btnAgregarRease" xml:space="preserve">
+    <value>Add Reinsurer</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="btnEditarRease" xml:space="preserve">
+    <value>Edit Reinsurer</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="btnEliminarRease" xml:space="preserve">
+    <value>Remove Reinsurer</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="btnAutorizaRease" xml:space="preserve">
+    <value>Authorize Reinsurer</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="btnCancelaRease" xml:space="preserve">
+    <value>Cancel Request</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="ribbon1" xml:space="preserve">
+    <value>Reinsurance Catalogs</value>
+    <comment>MainReaseguradoras</comment>
+  </data>
+  <data name="lbCodigoRease" xml:space="preserve">
+    <value>Reinsurance Code</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="lbRIPolicy" xml:space="preserve">
+    <value>RI Policy</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="lbFijoInterno" xml:space="preserve">
+    <value>% Internal Fixed</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="lbComision" xml:space="preserve">
+    <value>% Commission</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="chkTreaty" xml:space="preserve">
+    <value>Treaty</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="lbGrupoFinanzas" xml:space="preserve">
+    <value>Finance Group</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="chkLiability" xml:space="preserve">
+    <value>Liability default</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="chkMarine" xml:space="preserve">
+    <value>Marine Default</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="chkProperty" xml:space="preserve">
+    <value>Property Default</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="chkFL" xml:space="preserve">
+    <value>Financial Lines Default</value>
+    <comment>agregarEditarReaseguradoras</comment>
+  </data>
+  <data name="btnEditarCoase" xml:space="preserve">
+    <value>Edit Coinsurer</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="btnEliminarCoase" xml:space="preserve">
+    <value>Remove Coinsurer</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="btnAutorizaCoase" xml:space="preserve">
+    <value>Authorize Coinsurer</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="btnCancelaSolicitud" xml:space="preserve">
+    <value>Cancel Request</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="rbnPrincipal" xml:space="preserve">
+    <value>Catalog of Coinsurers</value>
+    <comment>MainCoaseguradoras</comment>
+  </data>
+  <data name="lbCodigoCoase" xml:space="preserve">
+    <value>Coinsurer code</value>
+    <comment>agregarEditarCoaseguros</comment>
+  </data>
+  <data name="lbCoaseguradora" xml:space="preserve">
+    <value>Coinsurer</value>
+    <comment>agregarEditarCoaseguros</comment>
+  </data>
+  <data name="lbLimiteActual" xml:space="preserve">
+    <value>Current limit</value>
+    <comment>MainLimiteMaximo</comment>
+  </data>
+  <data name="lbDivisaActual" xml:space="preserve">
+    <value>Current currency</value>
+    <comment>MainLimiteMaximo</comment>
+  </data>
+  <data name="lbLimiteNuevo" xml:space="preserve">
+    <value>New limit</value>
+    <comment>MainLimiteMaximo</comment>
+  </data>
+  <data name="lbDivisaNuevo" xml:space="preserve">
+    <value>New currency</value>
+    <comment>MainLimiteMaximo</comment>
+  </data>
+  <data name="lbPassword1" xml:space="preserve">
+    <value>New password</value>
+    <comment>MainPasswordDocumentos</comment>
+  </data>
+  <data name="lbPassword2" xml:space="preserve">
+    <value>Repeat password</value>
+    <comment>MainPasswordDocumentos</comment>
+  </data>
+  <data name="lbColores" xml:space="preserve">
+    <value>Select the color scheme of the interface</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="lbIniVig" xml:space="preserve">
+    <value>Policy start date</value>
+    <comment>Facturacion - Facturacion  - Control</comment>
+  </data>
+  <data name="tabSiniestros" xml:space="preserve">
+    <value>Claims</value>
+    <comment>Main Ribbon Tabs</comment>
+  </data>
+  <data name="grpFNOL" xml:space="preserve">
+    <value>FNOL</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="btnNuevoAvisoPerdida" xml:space="preserve">
+    <value>New Notice of Loss</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnAvisosPendientes" xml:space="preserve">
+    <value>Pending Notices</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnReportesRegulatorios" xml:space="preserve">
+    <value>Regulatory Reports</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="grpReportesClaims" xml:space="preserve">
+    <value>Sinister Reports</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="PopupEditarPerfil" xml:space="preserve">
+    <value>Editar Perfil</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="PopupConexion" xml:space="preserve">
+    <value>Conexión DB</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnSubirTemplate" xml:space="preserve">
+    <value>Document Upload</value>
+    <comment>btnSubirTemplate</comment>
+  </data>
+  <data name="btnDescargarDocumento" xml:space="preserve">
+    <value>Document Download</value>
+    <comment>btnDescargarDocumento</comment>
+  </data>
+  <data name="lbEndosoCobertura" xml:space="preserve">
+    <value>Coverage (If any)</value>
+  </data>
+  <data name="grpInformacionGralGenius" xml:space="preserve">
+    <value>1) General Information</value>
+  </data>
+  <data name="tabTérminos_y_Condiciones" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="grpSoporte" xml:space="preserve">
+    <value>Support</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="btnConsultarTicketsSoporte" xml:space="preserve">
+    <value>Support Tickets</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="PopupConsultarMisTickets" xml:space="preserve">
+    <value>Check my Support Tickets</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="lbBaseCalculo" xml:space="preserve">
+    <value>Computing Amount</value>
+    <comment>Emision Liability Incoming</comment>
+  </data>
+  <data name="lbEditarDireccion" xml:space="preserve">
+    <value>Edit Address</value>
+  </data>
+  <data name="lbAmbiente" xml:space="preserve">
+    <value>Testing Server</value>
+  </data>
+  <data name="lbProduccion" xml:space="preserve">
+    <value>Producing Server</value>
+  </data>
+  <data name="rgbSolicitudesAML" xml:space="preserve">
+    <value>AML applications</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnConsultarStatus" xml:space="preserve">
+    <value>Check Status</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="btnConsultarDocumentos" xml:space="preserve">
+    <value>Consult Documents</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="tabSeguimiento_Solicitudes" xml:space="preserve">
+    <value>Tracking Requests</value>
+    <comment>Catalogos - clientes  - ribbontab</comment>
+  </data>
+  <data name="grpSolicitudesBuscar" xml:space="preserve">
+    <value>AML Request Search</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbParamentroAML" xml:space="preserve">
+    <value>Parameter:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="lbBuscarAML" xml:space="preserve">
+    <value>Search for:</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="grpSolicitudesAML" xml:space="preserve">
+    <value>Select a Request to expand (double click)</value>
+    <comment>Catalogos - clientes  - Control</comment>
+  </data>
+  <data name="btnSeguimientoSolicitudes" xml:space="preserve">
+    <value>Tracking AML Requests</value>
+    <comment>Catalogos - clientes  - ribbontool</comment>
+  </data>
+  <data name="rgbDocumentos" xml:space="preserve">
+    <value>Documentation and Monitoring</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnAgregarComentario" xml:space="preserve">
+    <value>Add Comment</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnHistorialSeguimiento" xml:space="preserve">
+    <value>Review History Tracking</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnDocumentosAML" xml:space="preserve">
+    <value>Consult AML Documents</value>
+    <comment>Catalogos - AprobacionClientes  - ribbontool</comment>
+  </data>
+  <data name="btnEditarDatos" xml:space="preserve">
+    <value>Edit invoice data</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnConsultarWriteOff" xml:space="preserve">
+    <value>Consult Write Offs</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="btnAgregarWriteOff" xml:space="preserve">
+    <value>Add Write Off</value>
+    <comment>Facturacion - AdministracionFacturas  - ribbontool</comment>
+  </data>
+  <data name="grpEndosoManualMarine" xml:space="preserve">
+    <value>2) Enter Clauses Manually</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="btnImportarWord" xml:space="preserve">
+    <value>Import Word</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="btnRevisarArchivoImportado" xml:space="preserve">
+    <value>Review Imported File</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="lbClausulasManual" xml:space="preserve">
+    <value>Enter a Word file with all the text you want to import into section C of the policy</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="btnEliminarArchivo" xml:space="preserve">
+    <value>Delete file</value>
+    <comment>Emision Marine Incoming</comment>
+  </data>
+  <data name="grpSeccionesWordingManual" xml:space="preserve">
+    <value>2) Enter Coverage(s) Text</value>
+    <comment>Emision Property Producing</comment>
+  </data>
+  <data name="lbSeccionWordingProp" xml:space="preserve">
+    <value>Enter a Word File with all the text you want to import into the policy</value>
+    <comment>Emisión Property Producing</comment>
+  </data>
+  <data name="grpBuscadorCoberturas" xml:space="preserve">
+    <value>Coverage Search</value>
+    <comment>Emision Coberturas Control</comment>
+  </data>
+  <data name="btnAplicarWriteOff" xml:space="preserve">
+    <value>Apply WriteOff</value>
+    <comment>Facturacion WriteOff Control</comment>
+  </data>
+  <data name="grpTerminosCondicionesMarine" xml:space="preserve">
+    <value>1) Enter manual Text</value>
+    <comment>Emision Marine Producing</comment>
+  </data>
+  <data name="lbTerminosCondicionesMarine" xml:space="preserve">
+    <value>Enter a Word Text File that contains the information that you want the policy has</value>
+    <comment>Emision Marine Producing</comment>
+  </data>
+  <data name="lbClasificacionAMIS" xml:space="preserve">
+    <value>AMIS Code</value>
+    <comment>Emision Marine Producing</comment>
+  </data>
+  <data name="lbTypeGoods" xml:space="preserve">
+    <value>Type of Goods</value>
+    <comment>Emision Marine Producing</comment>
+  </data>
+  <data name="lbLicencia" xml:space="preserve">
+    <value>Active License</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="btnBuscarLicencia" xml:space="preserve">
+    <value>Search</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbFechaExpiracion" xml:space="preserve">
+    <value>Date Expiry License</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbRFCbroker" xml:space="preserve">
+    <value>RFC</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbDireccionBroker" xml:space="preserve">
+    <value>Tax management</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbEmailBroker" xml:space="preserve">
+    <value>Email contact</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="btnCobranzaBrokerage" xml:space="preserve">
+    <value>Brokerage</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnCobranzaReaseguro" xml:space="preserve">
+    <value>Reinsurance</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="btnEstatusCobranza" xml:space="preserve">
+    <value>Collection Status</value>
+    <comment>Main Ribbon Tools</comment>
+  </data>
+  <data name="grpCobranza" xml:space="preserve">
+    <value>Collection</value>
+    <comment>Main Ribbon Groups</comment>
+  </data>
+  <data name="grpDatosBrokers" xml:space="preserve">
+    <value>Follow-up data, Prosecutors and CNSF</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="grpDatosBancariosBroker" xml:space="preserve">
+    <value>Bank Details for Payments</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbMonedaBroker" xml:space="preserve">
+    <value>Payment Currency</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbBancoBroker" xml:space="preserve">
+    <value>Name of Bank</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbCuentaBroker" xml:space="preserve">
+    <value>Bank Account Number</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbClabe" xml:space="preserve">
+    <value>CLABE</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbAbba" xml:space="preserve">
+    <value>ABBA</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="lbSwift" xml:space="preserve">
+    <value>SWIFT</value>
+    <comment>AgregarEditarBrokers Controls</comment>
+  </data>
+  <data name="tabTexto_Libre" xml:space="preserve">
+    <value>Manual Text</value>
+  </data>
+  <data name="grpTextoLibre" xml:space="preserve">
+    <value>1) Type the info that will appear on the file</value>
+  </data>
+  <data name="btnBusquedaAutomatica" xml:space="preserve">
+    <value>Automatic Search</value>
+  </data>
+  <data name="btnCrearTemplate" xml:space="preserve">
+    <value>Create Template</value>
+  </data>
+  <data name="btnAdministracionSiniestros" xml:space="preserve">
+    <value>Casualty Administration</value>
+  </data>
+  <data name="btnNivelesServicio" xml:space="preserve">
+    <value>Service Levels</value>
+  </data>
+  <data name="btnReporteReservas" xml:space="preserve">
+    <value>Reservation Report</value>
+  </data>
+  <data name="btnReportePagos" xml:space="preserve">
+    <value>Payment Report</value>
+  </data>
+  <data name="btnClaimsCoaseguroReaseguro" xml:space="preserve">
+    <value>Coinsurance and Reinsurance</value>
+  </data>
+</root>

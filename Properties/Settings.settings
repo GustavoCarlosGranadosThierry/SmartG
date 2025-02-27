@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SmartG.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="idiomaSeleccionado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Español</Value>
+    </Setting>
+    <Setting Name="TelefonoAtencion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+52 (55) 5953 7164</Value>
+    </Setting>
+    <Setting Name="ColorScheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="usuarioDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokTimbradoWS_StampSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://demo-facturacion.finkok.com/servicios/soap/stamp</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokCancelacionWS_CancelSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://demo-facturacion.finkok.com/servicios/soap/cancel</Value>
+    </Setting>
+    <Setting Name="DocumentosSmartGConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=smartg_serverxl;Initial Catalog=DocumentosSmartG;Persist Security Info=True;User ID=UsuarioXL;Password=kreios1020&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=smartg_serverxl;Initial Catalog=DocumentosSmartG;Persist Security Info=True;User ID=UsuarioXL;Password=kreios1020</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokTimbradoWS_Produccion_StampSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://facturacion.finkok.com/servicios/soap/stamp</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokCancelacionWS_Produccion_CancelSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://facturacion.finkok.com/servicios/soap/cancel</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokRetencionesWS_Pruebas_RetentionsSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://demo-facturacion.finkok.com/servicios/soap/retentions</Value>
+    </Setting>
+    <Setting Name="SmartG_FinkokRetencionesWS_Produccion_RetentionsSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://facturacion.finkok.com/servicios/soap/retentions</Value>
+    </Setting>
+    <Setting Name="XLCatlinConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=smartg_serverxl;Initial Catalog=AxaXLProduccion;Persist Security Info=True;User ID=usuarioXL;Password=kreios1020&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=smartg_serverxl;Initial Catalog=AxaXLProduccion;Persist Security Info=True;User ID=usuarioXL;Password=kreios1020</Value>
+    </Setting>
+    <Setting Name="AxaXLClaimsConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=smartg_serverxl;Initial Catalog=AxaXLClaims;Persist Security Info=True;User ID=usuarioXL;Password=kreios1020&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=smartg_serverxl;Initial Catalog=AxaXLClaims;Persist Security Info=True;User ID=usuarioXL;Password=kreios1020</Value>
+    </Setting>
+    <Setting Name="emailSoporteTecnico" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smart-g.support@kreios.mx</Value>
+    </Setting>
+    <Setting Name="TiempoEsperaBloqueo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
